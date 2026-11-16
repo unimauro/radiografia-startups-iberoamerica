@@ -1,0 +1,37 @@
+{
+  "titulo": "Corfo: líneas de capital de riesgo (fondos FIC) y capital semilla",
+  "verificado_al": "2026-11-16",
+  "fondos_capital_riesgo": {
+    "fuente": "Endeavor Chile, 'Venture Capital 2025' (cita resultados Corfo al 31-dic-2024)",
+    "url": "https://endeavor.cl/wp-content/uploads/2025/10/20251002_Endeavor_Venture-Capital-2025_FW_V2.pdf",
+    "lineas": [
+      {"linea": "F1 (1997)", "fondos": 5, "usd_m": 81.1, "empresas": 39},
+      {"linea": "F2 (2005)", "fondos": 5, "usd_m": 97, "empresas": 29},
+      {"linea": "F3 (2006)", "fondos": 17, "usd_m": 372.6, "empresas": 95},
+      {"linea": "FT Etapas Tempranas (2012)", "fondos": 26, "usd_m": 248, "empresas": 241},
+      {"linea": "FC Desarrollo y Crecimiento (2012)", "fondos": 7, "usd_m": 243, "empresas": 34},
+      {"linea": "FET Etapas Tempranas Tecnológicas (2015)", "fondos": 5, "usd_m": 54, "empresas": 96}
+    ],
+    "acumulado": {"fondos": 72, "administradoras": 48, "usd_m": 1061, "empresas": 497, "desembolsado_2024_usd_m": "21,3 a >23 (según fuente)", "devuelto_2024_usd_m": 36,
+      "urls": ["https://www.df.cl/df-lab/innovacion-y-startups/fondos-de-venture-capital-pagaron-mas-de-us-36-millones-a-corfo-en-2024",
+               "https://g5noticias.cl/2025/04/16/corfo-supero-los-us1-061-millones-en-lineas-de-apoyo-al-venture-capital-en-chile/"]},
+    "fondo_de_fondos_2026": {"estado": "Proyecto de ley ingresado al Congreso (oct-2026), no aprobado", "usd_m_anio1": 25, "url": "https://portalinnova.cl/ministerio-de-economia-y-corfo-presentan-proyecto-de-fondo-de-fondos/"}
+  },
+  "semilla": [
+    {"programa": "Semilla Inicia", "monto_clp_m": 15, "monto_usd_aprox_k": 16, "cofinanciamiento": "75% (85% y hasta CLP 17M si lidera una mujer)",
+     "url_monto": "https://www.24horas.cl/te-sirve/programa-semilla-inicia-postulaciones-corfo",
+     "convocatorias": [
+       {"anio": 2019, "postulaciones": 1874, "seleccionados": 203, "url": "https://www.t13.cl/noticia/emprendedores/mas-200-emprendedores-impulsaran-sus-proyectos-gracias-al-semilla-inicia-corfo"},
+       {"anio": 2025, "estado": "Se realizó (nacional + regionales); última cierra 18-dic-2025", "seleccionados": null, "url": "https://www.24horas.cl/te-sirve/programa-semilla-inicia-postulaciones-corfo"},
+       {"anio": 2026, "postulaciones": 3074, "admisibles": 889, "seleccionados": 50, "url": "https://www.emol.com/noticias/Economia/2026/08/27/1209721/corfo-emprendimientos-mercados.html"}
+     ]},
+    {"programa": "Semilla Expande (Expande)", "monto_clp_m": 25, "monto_usd_aprox_k": 27, "nota_monto": "Etapa 1 hasta CLP 25M + etapa 2 hasta CLP 20M (total hasta CLP 45M)",
+     "url_monto": "https://www.emol.com/noticias/Economia/2024/12/30/1152740/semilla-expande-programa-corfo.html",
+     "convocatorias": [
+       {"anio": 2025, "estado": "Se realizó (2.ª convocatoria cerró 23-ene-2025)", "seleccionados": null, "url": "https://www.emol.com/noticias/Economia/2024/12/30/1152740/semilla-expande-programa-corfo.html"},
+       {"anio": 2026, "postulaciones": 512, "seleccionados": 95, "estado": "1.ª convocatoria cerró 24-feb-2026", "url": "https://www.latercera.com/emprendimiento/noticia/programa-expande-de-corfo-abre-primera-convocatoria-2026-para-apoyar-el-despegue-comercial-de-emprendimientos-chilenos/"}
+     ],
+     "url_2026_seleccionados": "https://www.emol.com/noticias/Economia/2026/08/27/1209721/corfo-emprendimientos-mercados.html"}
+  ],
+  "sin_dato": ["Seleccionados y montos totales por año de Semilla Inicia/Expande 2020–2025", "Montos comprometidos actuales por línea FT/FC/FET"]
+}

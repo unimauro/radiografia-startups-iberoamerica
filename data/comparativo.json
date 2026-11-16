@@ -1,0 +1,56 @@
+{
+ "titulo": "Comparativo Chile · Colombia · Perú",
+ "verificado_al": "2026-11-16",
+ "poblacion_pib_2024": {
+  "fuente": "Banco Mundial (API; SP.POP.TOTL y NY.GDP.MKTP.CD, actualizado 2026-11-11)",
+  "url_pob": "https://api.worldbank.org/v2/country/CHL;COL;PER/indicator/SP.POP.TOTL?date=2024&format=json",
+  "url_pib": "https://api.worldbank.org/v2/country/CHL;COL;PER/indicator/NY.GDP.MKTP.CD?date=2024&format=json",
+  "Chile": {"poblacion": 19764771, "pib_usd": 329260633699},
+  "Colombia": {"poblacion": 52886363, "pib_usd": 420504033143},
+  "Peru": {"poblacion": 34217848, "pib_usd": 291751523019}
+ },
+ "vc": {
+  "nota": "Chile y Colombia: LAVCA (misma metodología). Perú: PECAP (LAVCA no publica Perú por separado). 2025 de Perú: 72% es deuda (equity ~US$21M).",
+  "2024": {"Chile": 184, "Colombia": 513, "Peru": 47},
+  "2025": {"Chile": 250, "Colombia": 552, "Peru": 76.5},
+  "urls": {"lavca": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+           "pecap_2024": "https://ecosistemastartup.com/?p=82717",
+           "pecap_2025": "https://www.cofide.com.pe/wp-content/uploads/2026/06/NP-COFIDE-y-PECAP-presentan-informe.pdf"},
+  "pecap_2025_nota": "El comunicado COFIDE–PECAP (jun-2026) da US$76,5M en 23 deals (-30% deals, +64% monto) sin decir el año; la aritmética (33×0,7≈23; 47×1,64≈77) indica 2025. El repo de Perú lo tiene rotulado como 2023 (ver BACKLOG)."
+ },
+ "vc_equity_2025_misma_fuente": {"fuente": "Cuantico VP + Startuplinks (solo equity)", "url": "https://www.larepublica.co/globoeconomia/colombia-cuarta-en-financiacion-de-startups-con-us-224-millones-en-inversiones-4349331",
+  "Chile": {"usd_m": 250, "rondas": 53}, "Colombia": {"usd_m": 224, "rondas": 62}, "Peru": {"usd_m": 35, "rondas": 8}},
+ "ratios_calculo_propio": {
+  "2024": {"Chile": {"usd_por_hab": 9.31, "pct_pib": 0.056}, "Colombia": {"usd_por_hab": 9.70, "pct_pib": 0.122}, "Peru": {"usd_por_hab": 1.37, "pct_pib": 0.016}},
+  "2025": {"Chile": {"usd_por_hab": 12.65, "pct_pib": 0.076}, "Colombia": {"usd_por_hab": 10.44, "pct_pib": 0.131}, "Peru": {"usd_por_hab": 2.24, "pct_pib": 0.026}},
+  "nota": "VC del año / población y PIB 2024 (Banco Mundial)."
+ },
+ "grants_estatales_por_anio": {
+  "nota": "Conteo de seleccionados en programas de capital semilla del Estado, por año de anuncio. Cifras parciales: donde no hay dato se indica.",
+  "Chile": [
+   {"anio": 2025, "programa": "Start-Up Chile (BIG9 + BIG10)", "n": 126, "url": "https://startupchile.org/blog/estas-son-las-startups-seleccionadas-para-big-10/"},
+   {"anio": 2026, "programa": "Start-Up Chile (BIG11 + BIG12)", "n": 128, "url": "https://startupchile.org/en/blog/big-12-get-to-know-the-new-batch/"},
+   {"anio": 2026, "programa": "Corfo Semilla Inicia + Expande", "n": 145, "url": "https://www.emol.com/noticias/Economia/2026/08/27/1209721/corfo-emprendimientos-mercados.html"},
+   {"anio": 2025, "programa": "Corfo Semilla Inicia + Expande", "n": null, "nota": "sin dato"}
+  ],
+  "Colombia": [
+   {"anio": 2024, "programa": "iNNpulsa ALDEA", "n": 164, "url": "https://www.vanguardia.com/economia/2024/11/19/ministerio-de-comercio-ha-fortalecido-este-ano-mas-de-28000-emprendedores-a-traves-de-innpulsa/"},
+   {"anio": 2025, "programa": "iNNpulsa ALDEA", "n": null, "nota": "sin dato (no se encontró convocatoria)"},
+   {"anio": 2026, "programa": "SENA Fondo Emprender (meta, no innovación tech)", "n": 2000, "url": "https://www.infobae.com/colombia/2026/03/17/mas-de-282000-millones-para-emprendedores-sena-abre-12-convocatorias-en-colombia-con-capital-semilla/"}
+  ],
+  "Peru": [
+   {"anio": 2025, "programa": "StartUp Perú 12G (ganadores posibles)", "n": 257, "url": "https://startup.proinnovate.gob.pe/"},
+   {"anio": 2026, "programa": "StartUp Perú 13G (ganadores posibles)", "n": 478, "url": "https://startup.proinnovate.gob.pe/"}
+  ],
+  "fuente_peru": "Repo radiografia-startups-peru (data/proinnovate_resumen.json), parseo de PDFs de ProInnóvate"
+ },
+ "startupblink_2025": {
+  "paises": {"Colombia": 36, "Chile": 37, "Peru": 67},
+  "url_paises": "https://www.bloomberglinea.com.br/startups/brasil-tem-o-melhor-melhor-ecossistema-de-startups-da-america-latina-segundo-estudo/",
+  "conflicto": "Revista Mercado da Perú #60: https://revistamercado.do/technology/ia-innovation/ranking-los-paises-de-latinoamerica-que-lideran-el-ecosistema-para-startups/",
+  "ciudades": {"Bogotá": 62, "Santiago": 75, "Medellín": 145, "Lima": 182},
+  "url_ciudades": ["https://superscout.co/city/bogota", "https://superscout.co/city/santiago", "https://superscout.co/city/medellin", "https://superscout.co/city/lima", "https://portalinnova.cl/?p=153734"],
+  "nota": "startupblink.com bloquea bots (403): rankings tomados de prensa y agregadores (superscout.co es secundario).",
+  "2024": {"Colombia": 38, "Chile": 39, "Peru": null, "url": "https://expansion.mx/empresas/2024/06/04/mexico-ranking-mejores-ecosistemas-crear-startups-2024"}
+ }
+}

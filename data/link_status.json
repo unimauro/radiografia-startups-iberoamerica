@@ -1,0 +1,750 @@
+{
+ "https://api.worldbank.org/v2/country/CHL;COL;PER/indicator/NY.GDP.MKTP.CD?date=2024&format=json": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://api.worldbank.org/v2/country/CHL;COL;PER/indicator/SP.POP.TOTL?date=2024&format=json": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://blog.investchile.gob.cl/venture-capital-investment-chile-2021": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://chocale.cl/2025/08/agendapro-cierra-ronda-de-inversion-serie-b-de-us35-millones/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://ecosistemastartup.com/?p=129832": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://ecosistemastartup.com/?p=82717": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://ecosistemastartup.com/?p=93392": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://ecosistemastartup.com/start-up-chile-3-startups-peruanas-a-la-generacion-big-12/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://eldesconcierto.cl/2026/02/02/corfo-selecciona-64-startups-para-nueva-generacion-18-se-enfoca-en-agricultura-y-casi-la-mitad-usa-inteligencia-artificial": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://endeavor.cl/wp-content/uploads/2025/10/20251002_Endeavor_Venture-Capital-2025_FW_V2.pdf": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_corfo_fondos.json",
+   "data/chile_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://expansion.mx/empresas/2024/06/04/mexico-ranking-mejores-ecosistemas-crear-startups-2024": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://fiducoldex.com.co/sites/default/files/pdf/INFORME%20DE%20GESTI%C3%93N%20Q1%20InnPULSA%202026%20vf%20(1).pdf": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json",
+   "index.html"
+  ]
+ },
+ "https://fiducoldex.com.co/sites/default/files/pdf/Informes%20INNpulsa%20-%20trimestrales%20Q4%20-2025.pdf": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json"
+  ]
+ },
+ "https://forbes.cl/negocios/2022-01-25/inversion-en-venture-capital-rompe-records-en-latinoamerica-y-en-chile": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_vc_anual.json"
+  ]
+ },
+ "https://forbes.cl/negocios/2022-02-01/chile-tiene-un-nuevo-unicornio-betterfly-recauda-us-125-millones-y-queda-valorada-en-us-1-000-millones": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://forbes.co/2021/07/19/negocios/rappi-eleva-su-valuacion-a-us5-200-millones-tras-levantar-us500-millones-en-ronda-de-inversion/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://forbes.co/2025/04/23/emprendedores/ruta-n-y-bancoldex-invierten-13-400-millones-en-nuevo-fondo-fintech-de-simma-capital": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_bancoldex_fdf.json",
+   "index.html"
+  ]
+ },
+ "https://forbes.co/2025/07/16/actualidad/gobierno-expide-resolucion-para-reactivar-operacion-de-innpulsa-y-colombia-productiva-tras-ola-de-criticas": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json",
+   "index.html"
+  ]
+ },
+ "https://g5noticias.cl/2025/04/16/corfo-supero-los-us1-061-millones-en-lineas-de-apoyo-al-venture-capital-en-chile/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_corfo_fondos.json",
+   "index.html"
+  ]
+ },
+ "https://infomercado.pe/startup-peruana-genius-mining-ai-gana-start-up-chile-y-acelera-su-expansion-en-mineria-inteligente/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://lexlatin.com/noticias/softbank-invierte-usd-1000-millones-en-rappi": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://portalinnova.cl/?p=153734": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://portalinnova.cl/ministerio-de-economia-y-corfo-presentan-proyecto-de-fondo-de-fondos/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_corfo_fondos.json",
+   "index.html"
+  ]
+ },
+ "https://retailtechinnovationhub.com/home/2021/7/20/delivery-venture-rappi-closes-major-series-g-funding-round": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://revistamercado.do/technology/ia-innovation/ranking-los-paises-de-latinoamerica-que-lideran-el-ecosistema-para-startups/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://semana.com/amp/empresas/confidencias-on-line/articulo/innpulsa-cuanto-ha-invertido-el-programa-aldea-en-emprendimientos-en-colombia/296329": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json",
+   "index.html"
+  ]
+ },
+ "https://startup.proinnovate.gob.pe/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/blog/estas-son-las-startups-seleccionadas-para-big-10/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/en/blog/big-12-get-to-know-the-new-batch/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/en/blog/big-5-new-generation/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/en/blog/big-7-big-changes-eng/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/en/blog/big-9-is-here-meet-the-startups/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/en/blog/meet-our-big-8-generation/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/en/blog/meet-our-new-big-7-generation": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/en/blog/start-up-chile-welcomes-a-new-startup-generation/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/nuestro-impacto/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/postula/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/postula/build/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/postula/growth/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://startupchile.org/postula/ignite/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://superscout.co/city/bogota": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://superscout.co/city/lima": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/comparativo.json"
+  ]
+ },
+ "https://superscout.co/city/medellin": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/comparativo.json"
+  ]
+ },
+ "https://superscout.co/city/santiago": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/comparativo.json"
+  ]
+ },
+ "https://www.24horas.cl/te-sirve/programa-semilla-inicia-postulaciones-corfo": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_corfo_fondos.json",
+   "index.html"
+  ]
+ },
+ "https://www.bancoldex.com/sites/default/files/bancoldex_reporte_anual_2024.pdf": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_bancoldex_fdf.json",
+   "index.html"
+  ]
+ },
+ "https://www.bancoldex.com/sites/default/files/documentos/2304_comunprensa531.pdf": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_bancoldex_fdf.json",
+   "index.html"
+  ]
+ },
+ "https://www.bloomberglinea.com.br/startups/brasil-tem-o-melhor-melhor-ecossistema-de-startups-da-america-latina-segundo-estudo/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://www.bloomberglinea.com/latinoamerica/colombia/primicia-innpulsa-y-colombia-productiva-no-tienen-presupuesto-para-pagar-nomina-en-junio/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json",
+   "index.html"
+  ]
+ },
+ "https://www.bloomberglinea.com/latinoamerica/colombia/top-de-las-20-startups-colombianas-que-mas-dinero-han-levantado-en-la-ultima-decada/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://www.bloomberglinea.com/negocios/las-10-startups-en-colombia-que-mas-inversiones-recibieron-en-2025-segun-kpmg/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/colombia_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://www.bloomberglinea.com/negocios/startup-chilena-vambe-cerro-ronda-de-us14-millones-y-suma-a-ceo-de-rappi-a-su-junta-directiva/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://www.caf.com/en/currently/news/caf-and-bancoldex-sign-agreement-for-greater-opportunities-for-colombian-entrepreneurs": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_bancoldex_fdf.json"
+  ]
+ },
+ "https://www.cofide.com.pe/wp-content/uploads/2026/06/NP-COFIDE-y-PECAP-presentan-informe.pdf": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://www.descubre.vc/noticia/1d66c9b3-672a-4b0e-8e8e-6e7ca5c04b66": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://www.descubre.vc/noticia/colombia-consolida-usd-31-500-millones-en-capital-privado-y-alista-su-9-congreso-de-colcapital-2026-02-27": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_vc_anual.json"
+  ]
+ },
+ "https://www.df.cl/df-lab/innovacion-y-startups/fondos-de-venture-capital-pagaron-mas-de-us-36-millones-a-corfo-en-2024": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_corfo_fondos.json",
+   "index.html"
+  ]
+ },
+ "https://www.df.cl/df-lab/innovacion-y-startups/inversion-chilena-en-startups-registro-fuerte-caida-en-2024": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://www.df.cl/df-lab/innovacion-y-startups/inversion-en-capital-de-riesgo-en-chile-cayo-un-65-en-2024": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://www.diariooficial.interior.gob.cl/publicaciones/2026/11/03/44589/01/2893766.pdf": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://www.elcolombiano.com/negocios/recortepresupuesto-2025-gobierno-decreto-1484-colombia-HJ32193136": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json"
+  ]
+ },
+ "https://www.eltiempo.com/economia/sectores/empleados-de-entidad-del-gobierno-recibieron-mala-noticia-no-les-pagaran-el-sueldo-hoy-pese-a-resolucion-que-autoriza-recursos-3472287": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json",
+   "index.html"
+  ]
+ },
+ "https://www.eltiempo.com/economia/sectores/listo-el-decreto-de-aplazamiento-por-12-billones-de-pesos-del-presupuesto-del-2025-3421353": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json"
+  ]
+ },
+ "https://www.emol.com/noticias/Economia/2018/11/20/927995/Forbes-destaco-a-StartUp-Chile-como-una-de-las-aceleradoras-lideres-a-nivel-mundial.html": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json"
+  ]
+ },
+ "https://www.emol.com/noticias/Economia/2022/07/14/1066928/salud-y-biotecnologia-startup-chile.html": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://www.emol.com/noticias/Economia/2024/12/30/1152740/semilla-expande-programa-corfo.html": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_corfo_fondos.json",
+   "index.html"
+  ]
+ },
+ "https://www.emol.com/noticias/Economia/2026/05/06/1199166/startup-chile-convocatoria.html": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://www.emol.com/noticias/Economia/2026/08/27/1209721/corfo-emprendimientos-mercados.html": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_corfo_fondos.json",
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://www.emol.com/noticias/Economia/2026/11/04/1216042/startup-chile-convocatoria.html": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://www.enter.co/?p=574893": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json",
+   "index.html"
+  ]
+ },
+ "https://www.fooddive.com/news/plant-based-notco-gets-235m-for-expansion/603901/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://www.infobae.com/colombia/2026/03/17/mas-de-282000-millones-para-emprendedores-sena-abre-12-convocatorias-en-colombia-con-capital-semilla/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json",
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://www.innpulsacolombia.com/cemprende/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json",
+   "index.html"
+  ]
+ },
+ "https://www.innpulsacolombia.com/wp-content/uploads/2026/04/PPT-CONVOCATORIAS-ED-2026-1.pdf": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json",
+   "index.html"
+  ]
+ },
+ "https://www.larepublica.co/globoeconomia/colombia-cuarta-en-financiacion-de-startups-con-us-224-millones-en-inversiones-4349331": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/colombia_vc_anual.json",
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://www.latercera.com/emprendimiento/noticia/programa-expande-de-corfo-abre-primera-convocatoria-2026-para-apoyar-el-despegue-comercial-de-emprendimientos-chilenos/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_corfo_fondos.json"
+  ]
+ },
+ "https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_vc_anual.json",
+   "data/colombia_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_vc_anual.json",
+   "data/colombia_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/colombia_vc_anual.json",
+   "index.html"
+  ]
+ },
+ "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "DATA_SOURCES.md",
+   "data/chile_vc_anual.json",
+   "data/colombia_vc_anual.json",
+   "data/comparativo.json",
+   "index.html"
+  ]
+ },
+ "https://www.mincit.gov.co/prensa/noticias/general/mincit-se-fortalece-con-lideres-innpulsa-y-fontur": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "index.html"
+  ]
+ },
+ "https://www.mincit.gov.co/prensa/noticias/industria/economia-popular-relanzamiento-innpulsa-colombia": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json",
+   "index.html"
+  ]
+ },
+ "https://www.mincit.gov.co/prensa/noticias/industria/fondo-de-fondos-inversion-inteligente-para-crecer": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_bancoldex_fdf.json",
+   "index.html"
+  ]
+ },
+ "https://www.mincit.gov.co/prensa/noticias/industria/gobierno-nacional-y-softbank-firmaron-acuerdo-en-b": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_bancoldex_fdf.json"
+  ]
+ },
+ "https://www.mincit.gov.co/prensa/noticias/industria/mincit-impulsa-a-5-900-mujeres-de-economia-popular": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json",
+   "index.html"
+  ]
+ },
+ "https://www.mincit.gov.co/prensa/noticias/industria/programa-aldea-fortalecera-emprendimientos": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json",
+   "index.html"
+  ]
+ },
+ "https://www.portafolio.co/emprendimiento/colombia-se-alista-para-la-semana-en-la-que-el-capital-de-riesgo-camina-por-sus-calles-499810": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_bancoldex_fdf.json",
+   "index.html"
+  ]
+ },
+ "https://www.t13.cl/noticia/emprendedores/big13-start-up-chile-abrio-convocatoria-global-10-11-2026": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_startup_chile.json",
+   "index.html"
+  ]
+ },
+ "https://www.t13.cl/noticia/emprendedores/mas-200-emprendedores-impulsaran-sus-proyectos-gracias-al-semilla-inicia-corfo": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/chile_corfo_fondos.json",
+   "index.html"
+  ]
+ },
+ "https://www.vanguardia.com/economia/2024/11/19/ministerio-de-comercio-ha-fortalecido-este-ano-mas-de-28000-emprendedores-a-traves-de-innpulsa/": {
+  "status": 200,
+  "estado": "ok",
+  "archivos": [
+   "data/colombia_innpulsa.json",
+   "data/comparativo.json",
+   "index.html"
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "titulo": "Inversión de venture capital en startups colombianas (US$ millones)",
+ "verificado_al": "2026-11-16",
+ "series": [
+  {"fuente": "LAVCA", "metodologia": "VC en startups tecnológicas; la edición 2026 incluye venture debt. LAVCA revisa años previos entre ediciones (se usa la edición más reciente que cubre cada año).",
+   "datos": [
+    {"anio": 2018, "usd_m": 334, "operaciones": 19, "url": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf"},
+    {"anio": 2019, "usd_m": 1090, "operaciones": 36, "url": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf"},
+    {"anio": 2020, "usd_m": 500, "operaciones": 41, "url": "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf"},
+    {"anio": 2021, "usd_m": 1583, "operaciones": 90, "url": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"},
+    {"anio": 2022, "usd_m": 1203, "operaciones": 130, "url": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"},
+    {"anio": 2023, "usd_m": 395, "operaciones": 93, "url": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"},
+    {"anio": 2024, "usd_m": 513, "operaciones": 78, "url": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"},
+    {"anio": 2025, "usd_m": 552, "operaciones": 71, "url": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"}
+   ]},
+  {"fuente": "KPMG ColombiaTech Report (vía Bloomberg Línea)", "metodologia": "Equity + venture debt; no comparable con LAVCA.",
+   "datos": [
+    {"anio": 2019, "usd_m": 1154, "url": "https://www.bloomberglinea.com/latinoamerica/colombia/top-de-las-20-startups-colombianas-que-mas-dinero-han-levantado-en-la-ultima-decada/"},
+    {"anio": 2021, "usd_m": 1500, "operaciones": 89, "url": "https://www.bloomberglinea.com/latinoamerica/colombia/top-de-las-20-startups-colombianas-que-mas-dinero-han-levantado-en-la-ultima-decada/"},
+    {"anio": 2022, "usd_m": 970, "url": "https://www.bloomberglinea.com/latinoamerica/colombia/top-de-las-20-startups-colombianas-que-mas-dinero-han-levantado-en-la-ultima-decada/"},
+    {"anio": 2024, "usd_m": 941, "url": "https://www.bloomberglinea.com/negocios/las-10-startups-en-colombia-que-mas-inversiones-recibieron-en-2025-segun-kpmg/"},
+    {"anio": 2025, "usd_m": 857, "operaciones": 131, "nota": "Venture debt US$476M (55,5%); equity ~US$381M", "url": "https://www.bloomberglinea.com/negocios/las-10-startups-en-colombia-que-mas-inversiones-recibieron-en-2025-segun-kpmg/"}
+   ]},
+  {"fuente": "Cuantico VP + Startuplinks (vía La República)", "metodologia": "Solo equity 'VC puro'.",
+   "datos": [{"anio": 2025, "usd_m": 224, "operaciones": 62, "url": "https://www.larepublica.co/globoeconomia/colombia-cuarta-en-financiacion-de-startups-con-us-224-millones-en-inversiones-4349331"}]}
+ ],
+ "colcapital": {"nota": "ColCapital no publica una serie anual de VC en startups encontrable; su cifra de US$31.500M es toda la industria de capital privado.", "url": "https://www.descubre.vc/noticia/colombia-consolida-usd-31-500-millones-en-capital-privado-y-alista-su-9-congreso-de-colcapital-2026-02-27"},
+ "rondas_destacadas": [
+  {"startup": "Rappi", "tipo": "SoftBank", "usd_m": 1000, "anio": 2019, "sector": "Delivery / superapp", "url": "https://lexlatin.com/noticias/softbank-invierte-usd-1000-millones-en-rappi"},
+  {"startup": "Rappi", "tipo": "Serie G", "usd_m": 500, "anio": 2021, "sector": "Delivery / superapp", "url": "https://forbes.co/2021/07/19/negocios/rappi-eleva-su-valuacion-a-us5-200-millones-tras-levantar-us500-millones-en-ronda-de-inversion/"},
+  {"startup": "Rappi", "tipo": "Serie F", "usd_m": 300, "anio": 2020, "sector": "Delivery / superapp", "url": "https://retailtechinnovationhub.com/home/2021/7/20/delivery-venture-rappi-closes-major-series-g-funding-round"},
+  {"startup": "ADDI", "tipo": "Ronda (LAVCA)", "usd_m": 186, "anio": 2024, "sector": "Fintech (BNPL)", "url": "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf"},
+  {"startup": "Rappi", "tipo": "Venture debt", "usd_m": 100, "anio": 2025, "sector": "Delivery / superapp", "url": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"},
+  {"startup": "Finkargo", "tipo": "Serie A", "usd_m": 95, "anio": 2024, "sector": "Fintech", "url": "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf"},
+  {"startup": "Welli", "tipo": "Ronda", "usd_m": 75, "anio": 2025, "sector": "Healthfintech", "url": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"},
+  {"startup": "Simetrik", "tipo": "Serie B", "usd_m": 55, "anio": 2024, "sector": "Fintech / SaaS", "url": "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf"}
+ ],
+ "acumulado_2013_2023_kpmg_usd_m": {"Rappi": 2192, "Habi": 315, "Frubana": 277, "Addi": 221, "La Haus": 162, "Bold": 70, "url": "https://www.bloomberglinea.com/latinoamerica/colombia/top-de-las-20-startups-colombianas-que-mas-dinero-han-levantado-en-la-ultima-decada/"},
+ "concentracion": {
+  "nota": "Cálculo propio: ronda mayor / total LAVCA del año.",
+  "datos": [
+   {"anio": 2019, "startup": "Rappi", "pct": 91.7, "sin_la_ronda_usd_m": 90},
+   {"anio": 2020, "startup": "Rappi (si LAVCA la contó)", "pct": 60.0, "sin_la_ronda_usd_m": 200, "nota": "no confirmado que LAVCA incluya la Serie F"},
+   {"anio": 2021, "startup": "Rappi", "pct": 31.6, "sin_la_ronda_usd_m": 1083},
+   {"anio": 2024, "startup": "ADDI", "pct": 36.3, "sin_la_ronda_usd_m": 327},
+   {"anio": 2025, "startup": "Rappi", "pct": 18.1, "sin_la_ronda_usd_m": 452}
+  ],
+  "inconsistencia_2018": "Las rondas de Rappi listadas por LAVCA en 2018 (217,5 + 185 = 402,5) superan el total país (334): no se calcula."
+ }
+}

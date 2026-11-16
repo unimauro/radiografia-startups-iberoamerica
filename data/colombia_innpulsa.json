@@ -1,0 +1,40 @@
+{
+  "titulo": "iNNpulsa Colombia: programas, presupuesto y crisis 2025",
+  "verificado_al": "2026-11-16",
+  "tipo_cambio_nota": "Montos en USD aproximados por este observatorio a ~4.000 COP/USD; no vienen de la fuente.",
+  "programas": [
+    {"programa": "ALDEA", "anio": "2017–2020 (acumulado a ago-2020)", "cop_m": 18720, "beneficiarios": 622, "nota": "28 departamentos", "url": "https://semana.com/amp/empresas/confidencias-on-line/articulo/innpulsa-cuanto-ha-invertido-el-programa-aldea-en-emprendimientos-en-colombia/296329", "verif": "leído"},
+    {"programa": "ALDEA", "anio": 2023, "cop_m": 5000, "beneficiarios": 320, "nota": "Hasta 320 emprendimientos, selección desde nov-2023", "url": "https://www.mincit.gov.co/prensa/noticias/industria/programa-aldea-fortalecera-emprendimientos", "verif": "leído"},
+    {"programa": "ALDEA", "anio": 2024, "cop_m": 6342, "beneficiarios": 164, "nota": "Hasta COP 50M por emprendimiento; 19 departamentos", "url": "https://www.vanguardia.com/economia/2024/11/19/ministerio-de-comercio-ha-fortalecido-este-ano-mas-de-28000-emprendedores-a-traves-de-innpulsa/", "verif": "leído"},
+    {"programa": "ALDEA", "anio": 2025, "cop_m": null, "beneficiarios": null, "nota": "sin dato: no se encontró convocatoria ALDEA 2025"},
+    {"programa": "CEmprende", "anio": 2026, "cop_m": null, "beneficiarios": null, "nota": "Plataforma permanente (mentores, oferta del ecosistema). Sin cifras de centros ni convocatorias.", "url": "https://www.innpulsacolombia.com/cemprende/", "verif": "resumen de búsqueda"},
+    {"programa": "Capital semilla iNNpulsa", "anio": null, "cop_m": null, "beneficiarios": null, "nota": "sin dato de beneficiarios ni montos (solo referencia 2019: hasta COP 12M en la estación 'Invierte en tu crecimiento', no verificada)"},
+    {"programa": "iNNpulsa Mujeres (economía popular, con CLAP)", "anio": 2026, "cop_m": null, "beneficiarios": 5900, "nota": "Meta de 5.900 unidades productivas; ventana 20-feb a 23-mar-2026; monto sin dato", "url": "https://www.mincit.gov.co/prensa/noticias/industria/mincit-impulsa-a-5-900-mujeres-de-economia-popular", "verif": "resumen de búsqueda"},
+    {"programa": "Emprendimiento Digital (con MinTIC)", "anio": 2026, "cop_m": null, "beneficiarios": 32, "nota": "Convocatoria 1: hasta 32 actores regionales (16 incubación, 16 aceleración)", "url": "https://www.innpulsacolombia.com/wp-content/uploads/2026/04/PPT-CONVOCATORIAS-ED-2026-1.pdf", "verif": "leído"}
+  ],
+  "innpulsa_2024_total": {"cop_m": 142000, "beneficiarios": 28570, "desglose_cop_m": {"ZASCA (70 centros)": 121000, "FortaleSER": 14424, "ALDEA": 6342, "Héroes Fest": 969},
+    "lectura": "ALDEA (el programa de emprendimiento innovador) fue ~4,5% del gasto 2024; el grueso fue a ZASCA (economía popular / reindustrialización).",
+    "url": "https://www.vanguardia.com/economia/2024/11/19/ministerio-de-comercio-ha-fortalecido-este-ano-mas-de-28000-emprendedores-a-traves-de-innpulsa/"},
+  "presupuesto": [
+    {"anio": 2021, "cop_m": 150000, "url": "https://www.enter.co/?p=574893", "nota": "Columna de opinión (A. Raigosa, ANDI del Futuro), no cifra oficial"},
+    {"anio": 2023, "cop_m": 150000, "url": "https://www.bloomberglinea.com/latinoamerica/colombia/primicia-innpulsa-y-colombia-productiva-no-tienen-presupuesto-para-pagar-nomina-en-junio/"},
+    {"anio": 2024, "cop_m": 69000, "url": "https://www.enter.co/?p=574893", "nota": "Columna de opinión; -54% vs 2021"},
+    {"anio": 2026, "cop_m": 276870, "url": "https://fiducoldex.com.co/sites/default/files/pdf/INFORME%20DE%20GESTI%C3%93N%20Q1%20InnPULSA%202026%20vf%20(1).pdf", "nota": "Apropiación inicial del patrimonio FUSIONADO (iNNpulsa + ex Colombia Productiva): no comparable con años previos. Solo ~3% comprometido al 31-mar-2026."}
+  ],
+  "crisis_2025": [
+    {"fecha": "jun-2025", "hecho": "Faltante de ~COP 100.000M en iNNpulsa (y >25.000M en Colombia Productiva); nómina de junio en riesgo. Causa: MinCIT no tramitó la reserva presupuestal antes del 20 de enero.", "url": "https://www.bloomberglinea.com/latinoamerica/colombia/primicia-innpulsa-y-colombia-productiva-no-tienen-presupuesto-para-pagar-nomina-en-junio/"},
+    {"fecha": "jul-2025", "hecho": "Resolución 1627 de MinHacienda habilita hasta COP 40.000M para ambas entidades; aun así la nómina del 15-jul no se pagó a tiempo.", "url": "https://www.eltiempo.com/economia/sectores/empleados-de-entidad-del-gobierno-recibieron-mala-noticia-no-les-pagaran-el-sueldo-hoy-pese-a-resolucion-que-autoriza-recursos-3472287"},
+    {"fecha": "jul-2025", "hecho": "Gobierno expide resolución para reactivar la operación de iNNpulsa y Colombia Productiva.", "url": "https://forbes.co/2025/07/16/actualidad/gobierno-expide-resolucion-para-reactivar-operacion-de-innpulsa-y-colombia-productiva-tras-ola-de-criticas"},
+    {"fecha": "nov-2025", "hecho": "Fusión: relanzamiento como un solo iNNpulsa desde el 1-nov-2025 (reindustrialización, emprendimiento + economía popular, competitividad territorial).", "url": "https://www.mincit.gov.co/prensa/noticias/industria/economia-popular-relanzamiento-innpulsa-colombia"},
+    {"fecha": "nov-2025", "hecho": "Se trasladan COP 28.513M del patrimonio antiguo (en liquidación) al nuevo.", "url": "https://fiducoldex.com.co/sites/default/files/pdf/Informes%20INNpulsa%20-%20trimestrales%20Q4%20-2025.pdf"}
+  ],
+  "recorte_pgn_2025": {"nota": "Recortes al Presupuesto General de la Nación completo (no específicos de iNNpulsa): aplazamiento de COP 12 billones + Decreto 1484 (31-dic-2025) ~4,2 billones.",
+    "urls": ["https://www.eltiempo.com/economia/sectores/listo-el-decreto-de-aplazamiento-por-12-billones-de-pesos-del-presupuesto-del-2025-3421353", "https://www.elcolombiano.com/negocios/recortepresupuesto-2025-gobierno-decreto-1484-colombia-HJ32193136"]},
+  "convocatorias_estado": {
+    "2025": "Sin suspensión oficial encontrada, pero crisis de liquidez y operación (nómina, contratos) y sin convocatoria ALDEA 2025 localizada.",
+    "2026": "Sí hubo convocatorias: iNNpulsa Mujeres, Emprendimiento Digital (con MinTIC), Turismo +PRO."
+  },
+  "contexto_fondo_emprender_sena": [
+    {"anio": 2026, "convocatorias": 12, "cop_m": 282000, "meta_emprendimientos": 2000, "nota": "Hasta COP 780M por proyecto (no es iNNpulsa: es SENA)", "url": "https://www.infobae.com/colombia/2026/03/17/mas-de-282000-millones-para-emprendedores-sena-abre-12-convocatorias-en-colombia-con-capital-semilla/"}
+  ]
+}

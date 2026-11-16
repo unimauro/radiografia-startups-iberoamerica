@@ -1,0 +1,20 @@
+{
+  "titulo": "Bancóldex: fondo de fondos y capital de riesgo",
+  "verificado_al": "2026-11-16",
+  "hitos": [
+    {"anio": 2010, "hecho": "Programa Bancóldex Capital (creado 2009): US$30M para fondos de capital privado, US$12M ya comprometidos", "url": "https://www.bancoldex.com/sites/default/files/documentos/2304_comunprensa531.pdf"},
+    {"anio": 2019, "hecho": "Acuerdo con SoftBank (30-abr-2019): fondo de fondos de etapa temprana ~US$15M", "url": "https://www.mincit.gov.co/prensa/noticias/industria/gobierno-nacional-y-softbank-firmaron-acuerdo-en-b"},
+    {"anio": 2019, "hecho": "MoU CAF–Bancóldex: CAF podría invertir hasta 20% de los compromisos", "url": "https://www.caf.com/en/currently/news/caf-and-bancoldex-sign-agreement-for-greater-opportunities-for-colombian-entrepreneurs"},
+    {"anio": 2019, "hecho": "Lanzamiento del Fondo de Fondos (14-nov-2019) con US$38M iniciales (Bancóldex, iNNpulsa, Colciencias, SoftBank, CAF)", "usd_m": 38, "url": "https://www.mincit.gov.co/prensa/noticias/industria/fondo-de-fondos-inversion-inteligente-para-crecer"},
+    {"anio": 2024, "hecho": "Activos bajo administración COP 375.339M (~US$94M); Bancóldex ancla con COP 293.447M", "cop_m": 375339, "url": "https://www.bancoldex.com/sites/default/files/bancoldex_reporte_anual_2024.pdf"},
+    {"anio": 2025, "hecho": "Fondo de Fondos II: primera inversión Simma Fintech+ con Ruta N (hasta COP 13.400M). Trayectoria: COP 2 billones movilizados vía 23 fondos en 16 años", "url": "https://forbes.co/2025/04/23/emprendedores/ruta-n-y-bancoldex-invierten-13-400-millones-en-nuevo-fondo-fintech-de-simma-capital"},
+    {"anio": 2026, "hecho": "~COP 82.000M (~US$20M) comprometidos en 6 fondos que suman ~COP 1 billón", "cop_m": 82000, "url": "https://www.portafolio.co/emprendimiento/colombia-se-alista-para-la-semana-en-la-que-el-capital-de-riesgo-camina-por-sus-calles-499810"}
+  ],
+  "compartimentos_2024": [
+    {"compartimento": "Capital para Emprender", "cop_m": 138092, "fondos": 9, "inversiones": 213, "en_startups_colombianas": 47},
+    {"compartimento": "Bancóldex Capital", "cop_m": 185447, "fondos": 11, "inversiones": 177, "en_empresas_colombianas": 74},
+    {"compartimento": "Fomento Micro VC (con Ruta N, desde dic-2024)", "cop_m": 51800, "meta_cop_m": 84000, "fondos": null}
+  ],
+  "url_compartimentos": "https://www.bancoldex.com/sites/default/files/bancoldex_reporte_anual_2024.pdf",
+  "sin_dato": ["Aportes efectivamente pagados por SoftBank y CAF", "Cifra 'US$100M' del fondo de fondos no respaldada (lo verificado: US$38M al lanzamiento; ~US$94M en AUM COP a 2024)"]
+}

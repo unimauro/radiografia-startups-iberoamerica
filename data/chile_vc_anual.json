@@ -1,0 +1,246 @@
+{
+ "titulo": "Inversión de venture capital en startups chilenas (US$ millones)",
+ "advertencia": "NO existe una serie única y consistente 2018–2025 para Chile. Cada fuente usa otra metodología (LAVCA solo VC; ACVC incluye inversionistas chilenos y extranjeros, family offices, corporativos y fondos públicos/privados, y cambia de reporte a reporte). Se publican las series por separado, sin mezclarlas.",
+ "verificado_al": "2026-11-16",
+ "series": [
+  {
+   "fuente": "LAVCA Trends in Tech 2026 (2021–2025) + VC Tech Reports 2019/2020 (2018–2019)",
+   "metodologia": "VC en startups tecnológicas (equity + venture debt en la edición 2026). Es la serie comparable con Colombia.",
+   "datos": [
+    {
+     "anio": 2018,
+     "usd_m": 46,
+     "operaciones": 49,
+     "url": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf"
+    },
+    {
+     "anio": 2019,
+     "usd_m": 63,
+     "operaciones": 40,
+     "url": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf"
+    },
+    {
+     "anio": 2020,
+     "usd_m": null,
+     "operaciones": null,
+     "nota": "sin dato"
+    },
+    {
+     "anio": 2021,
+     "usd_m": 889,
+     "operaciones": 96,
+     "url": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+    },
+    {
+     "anio": 2022,
+     "usd_m": 535,
+     "operaciones": 116,
+     "url": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+    },
+    {
+     "anio": 2023,
+     "usd_m": 269,
+     "operaciones": 88,
+     "url": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+    },
+    {
+     "anio": 2024,
+     "usd_m": 184,
+     "operaciones": 74,
+     "url": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+     "nota": "La edición 2025 decía 178 / 63"
+    },
+    {
+     "anio": 2025,
+     "usd_m": 250,
+     "operaciones": 50,
+     "url": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+    }
+   ]
+  },
+  {
+   "fuente": "LAVCA (VC Tech Report 2020)",
+   "metodologia": "Solo rondas de VC; series posteriores a 2019 detrás de membresía (sin dato).",
+   "datos": [
+    {
+     "anio": 2018,
+     "usd_m": 46,
+     "operaciones": 49,
+     "url": "https://blog.investchile.gob.cl/venture-capital-investment-chile-2021"
+    },
+    {
+     "anio": 2019,
+     "usd_m": 63,
+     "operaciones": 40,
+     "url": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf"
+    }
+   ]
+  },
+  {
+   "fuente": "ACVC (vía InvestChile / Diario Financiero)",
+   "metodologia": "Amplia y cambiante entre reportes.",
+   "datos": [
+    {
+     "anio": 2020,
+     "usd_m": 160,
+     "operaciones": 89,
+     "url": "https://blog.investchile.gob.cl/venture-capital-investment-chile-2021"
+    },
+    {
+     "anio": 2021,
+     "usd_m": 2915,
+     "operaciones": 104,
+     "url": "https://blog.investchile.gob.cl/venture-capital-investment-chile-2021",
+     "nota": "Casi con seguridad incluye la venta de Cornershop a Uber (~US$3.000M): valor atípico, no es VC 'puro'."
+    },
+    {
+     "anio": 2023,
+     "usd_m": 898,
+     "operaciones": 362,
+     "url": "https://www.df.cl/df-lab/innovacion-y-startups/inversion-chilena-en-startups-registro-fuerte-caida-en-2024",
+     "nota": "Reporte 2024 de Inversiones Chilenas (DF, 22-ene-2025)."
+    },
+    {
+     "anio": 2024,
+     "usd_m": 311,
+     "operaciones": 347,
+     "url": "https://www.df.cl/df-lab/innovacion-y-startups/inversion-en-capital-de-riesgo-en-chile-cayo-un-65-en-2024",
+     "nota": "ACVC Impact Report 2025 (DF, 7-jul-2025): -65% vs 2023; 19 salidas (récord). Otra medición ACVC para 2024 da US$514,7M en 95 rondas (DF, 22-ene-2025); no explican la diferencia de metodología."
+    },
+    {
+     "anio": 2025,
+     "usd_m": 854,
+     "operaciones": 274,
+     "url": "https://ecosistemastartup.com/?p=93392",
+     "confiabilidad": "baja",
+     "nota": "Atribuido al 'ACVC Impact Report 2026' por un sitio secundario; no se encontró el documento primario de ACVC. Rango citado 813–854."
+    }
+   ]
+  },
+  {
+   "fuente": "Otras (entorno.vc vía descubre.vc; Magical vía Forbes Chile)",
+   "datos": [
+    {
+     "anio": 2021,
+     "usd_m": 2900,
+     "operaciones": null,
+     "url": "https://forbes.cl/negocios/2022-01-25/inversion-en-venture-capital-rompe-records-en-latinoamerica-y-en-chile"
+    },
+    {
+     "anio": 2022,
+     "usd_m": 1019,
+     "operaciones": null,
+     "url": "https://www.descubre.vc/noticia/1d66c9b3-672a-4b0e-8e8e-6e7ca5c04b66"
+    }
+   ]
+  }
+ ],
+ "serie_dashboard": {
+  "nota": "Dos series en el gráfico: LAVCA (comparable con Colombia) y ACVC/otras (metodología amplia, incluye exits/corporativos).",
+  "anios": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "lavca": [
+   46,
+   63,
+   null,
+   889,
+   535,
+   269,
+   184,
+   250
+  ],
+  "acvc_otras": [
+   null,
+   null,
+   160,
+   2915,
+   1019,
+   898,
+   311,
+   854
+  ],
+  "fuente_acvc_otras": [
+   "—",
+   "—",
+   "ACVC",
+   "ACVC (incluye venta de Cornershop)",
+   "entorno.vc",
+   "ACVC",
+   "ACVC Impact Report 2025",
+   "ACVC vía fuente secundaria (baja confiabilidad)"
+  ]
+ },
+ "sectores": {
+  "2024_por_monto": {
+   "Greentech / cleantech": 43,
+   "Fintech / insurtech": 15,
+   "Agtech / foodtech": 11,
+   "Otros": 31
+  },
+  "url_2024_por_monto": "https://www.df.cl/df-lab/innovacion-y-startups/inversion-chilena-en-startups-registro-fuerte-caida-en-2024",
+  "2024_por_rondas": {
+   "Fintech / insurtech": 26,
+   "Climatech": 21,
+   "Biotech / healthtech": 18
+  },
+  "url_2024_por_rondas": "https://www.df.cl/df-lab/innovacion-y-startups/inversion-en-capital-de-riesgo-en-chile-cayo-un-65-en-2024"
+ },
+ "rondas_destacadas": [
+  {
+   "startup": "Cornershop",
+   "tipo": "Venta a Uber (exit)",
+   "usd_m": 3000,
+   "anio": 2021,
+   "sector": "Delivery",
+   "url": "https://endeavor.cl/wp-content/uploads/2025/10/20251002_Endeavor_Venture-Capital-2025_FW_V2.pdf"
+  },
+  {
+   "startup": "NotCo",
+   "tipo": "Serie D",
+   "usd_m": 235,
+   "anio": 2021,
+   "sector": "Foodtech",
+   "url": "https://www.fooddive.com/news/plant-based-notco-gets-235m-for-expansion/603901/"
+  },
+  {
+   "startup": "Betterfly",
+   "tipo": "Serie C (unicornio)",
+   "usd_m": 125,
+   "anio": 2022,
+   "sector": "Insurtech",
+   "url": "https://forbes.cl/negocios/2022-02-01/chile-tiene-un-nuevo-unicornio-betterfly-recauda-us-125-millones-y-queda-valorada-en-us-1-000-millones"
+  },
+  {
+   "startup": "Buk",
+   "tipo": "Serie B",
+   "usd_m": 50,
+   "anio": 2025,
+   "sector": "HRtech",
+   "url": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "startup": "AgendaPro",
+   "tipo": "Serie B",
+   "usd_m": 35,
+   "anio": 2025,
+   "sector": "SaaS",
+   "url": "https://chocale.cl/2025/08/agendapro-cierra-ronda-de-inversion-serie-b-de-us35-millones/"
+  },
+  {
+   "startup": "Vambe",
+   "tipo": "Serie A",
+   "usd_m": 14,
+   "anio": 2025,
+   "sector": "IA / SaaS",
+   "url": "https://www.bloomberglinea.com/negocios/startup-chilena-vambe-cerro-ronda-de-us14-millones-y-suma-a-ceo-de-rappi-a-su-junta-directiva/"
+  }
+ ]
+}

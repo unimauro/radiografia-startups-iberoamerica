@@ -1,0 +1,38 @@
+{
+  "titulo": "Start-Up Chile (Corfo): programas, generaciones y convocatorias",
+  "verificado_al": "2026-11-16",
+  "aclaracion": "BIG NO es un programa aparte para mujeres: es el nombre de cada convocatoria conjunta de Build + Ignite + Growth (B-I-G). El foco en mujeres es la cuota 'Female Founder Factor' dentro de BIG. Hay dos convocatorias al año.",
+  "url_aclaracion": "https://startupchile.org/en/blog/big-7-big-changes-eng/",
+  "programas": [
+    {"programa": "Build", "etapa": "Pre-aceleración (4 meses)", "monto_clp_m": 15, "monto_usd_aprox_k": 20, "usd_es_calculo_propio": true, "cofinanciamiento": "hasta 90%", "requisito": "< 1 año de desarrollo, idea validada a MVP; ≥50% de seleccionados liderados por mujeres", "url": "https://startupchile.org/postula/build/"},
+    {"programa": "Ignite", "etapa": "Aceleración (4 meses)", "monto_clp_m": 30, "extension_clp_m": 20, "monto_usd_aprox_k": 40, "usd_es_calculo_propio": true, "cofinanciamiento": "80% (90% si lidera una mujer)", "requisito": "MVP funcional, < 3 años de desarrollo", "url": "https://startupchile.org/postula/ignite/"},
+    {"programa": "Growth", "etapa": "Aceleración (8 meses según sitio oficial; Emol dice 6)", "monto_clp_m": 75, "monto_usd_aprox_k": 100, "usd_es_calculo_propio": false, "cofinanciamiento": "50% (60% si lidera una mujer)", "requisito": "≥ 24 meses; ventas 12 meses CLP 80M–800M", "url": "https://startupchile.org/postula/growth/"}
+  ],
+  "beneficio_extra": {"texto": "Visa de trabajo por 2 años para fundadores extranjeros, cowork, mentores", "url": "https://www.emol.com/noticias/Economia/2026/11/04/1216042/startup-chile-convocatoria.html"},
+  "generaciones": [
+    {"gen": "BIG3", "anuncio": "2022-01-18", "anio": 2022, "seleccionadas": 101, "build": 43, "ignite": 40, "growth": 18, "pct_chilenos": 70.3, "peruanas": null, "url": "https://startupchile.org/en/blog/start-up-chile-welcomes-a-new-startup-generation/", "nota": "% chilenos es de fundadores"},
+    {"gen": "BIG4", "anuncio": "2022-07-14", "anio": 2022, "seleccionadas": 87, "pct_chilenos": null, "peruanas": null, "url": "https://www.emol.com/noticias/Economia/2022/07/14/1066928/salud-y-biotecnologia-startup-chile.html", "nota": "77% ya opera en Chile; 32% lideradas por mujeres"},
+    {"gen": "BIG5", "anuncio": "2023-02-03", "anio": 2023, "seleccionadas": 88, "build": 32, "ignite": 34, "growth": 19, "pct_chilenos": 71.8, "peruanas": 2, "url": "https://startupchile.org/en/blog/big-5-new-generation/", "nota": "85 listadas; % y peruanas contados por este observatorio sobre la lista oficial"},
+    {"gen": "BIG6", "anuncio": null, "anio": 2023, "seleccionadas": null, "nota": "sin dato"},
+    {"gen": "BIG7", "anuncio": "2024-03", "anio": 2024, "seleccionadas": 57, "build": 16, "ignite": 28, "growth": 14, "pct_chilenos": 58, "peruanas": 3, "url": "https://startupchile.org/en/blog/meet-our-new-big-7-generation", "nota": "Forbes dice 58"},
+    {"gen": "BIG8", "anuncio": "2024-07-19", "anio": 2024, "seleccionadas": 50, "postulaciones": 868, "build": 15, "ignite": 22, "growth": 13, "pct_chilenos": 66, "peruanas": 1, "url": "https://startupchile.org/en/blog/meet-our-big-8-generation/"},
+    {"gen": "BIG9", "anuncio": "2025-01", "anio": 2025, "seleccionadas": 64, "postulaciones": 900, "build": 17, "ignite": 28, "growth": 15, "pct_chilenos": 55, "peruanas": 2, "url": "https://startupchile.org/en/blog/big-9-is-here-meet-the-startups/", "nota": "Emol dice 68; postulaciones '>900'; 60 listadas"},
+    {"gen": "BIG10", "anuncio": "2025-07-18", "anio": 2025, "seleccionadas": 62, "postulaciones": 964, "build": 18, "ignite": 24, "growth": 17, "pct_chilenos": 71, "peruanas": 3, "url": "https://startupchile.org/blog/estas-son-las-startups-seleccionadas-para-big-10/", "nota": "59 listadas; 13 países; 31% lideradas por mujeres; postulaciones solo por resumen de búsqueda"},
+    {"gen": "BIG11", "anuncio": "2026-02-02", "anio": 2026, "seleccionadas": 64, "postulaciones": 1337, "build": 17, "ignite": 31, "growth": 16, "pct_chilenos": 68, "peruanas": null, "url": "https://eldesconcierto.cl/2026/02/02/corfo-selecciona-64-startups-para-nueva-generacion-18-se-enfoca-en-agricultura-y-casi-la-mitad-usa-inteligencia-artificial", "nota": "Récord de postulaciones. Peruanas identificadas en prensa: Localy, Kuidda, Genius Mining AI (≥3; total sin dato)"},
+    {"gen": "BIG12", "anuncio": "2026-07-22", "anio": 2026, "seleccionadas": 64, "postulaciones": 1296, "build": 19, "ignite": 28, "growth": 17, "pct_chilenos": 72, "peruanas": 6, "url": "https://startupchile.org/en/blog/big-12-get-to-know-the-new-batch/", "nota": "La página dice 59 pero lista 64; The Clinic dice 65. Perú = 1.er país extranjero (24% de las extranjeras según DF vía EcoStartup). Peruanas contadas por este observatorio; la prensa dice 3 o 5."},
+    {"gen": "BIG13", "anuncio": null, "anio": 2026, "seleccionadas": null, "estado": "Convocatoria abierta: cierra 24-nov-2026 13:00 (GMT-3); inicio 1.er semestre 2027", "url": "https://startupchile.org/postula/"}
+  ],
+  "fuente_peru_big12": "https://ecosistemastartup.com/start-up-chile-3-startups-peruanas-a-la-generacion-big-12/",
+  "fuente_big11_peru": "https://infomercado.pe/startup-peruana-genius-mining-ai-gana-start-up-chile-y-acelera-su-expansion-en-mineria-inteligente/",
+  "convocatorias": {
+    "2025": {"realizadas": 2, "detalle": "BIG10 (convocatoria ~abr-2025, seleccionadas jul-2025) y BIG11 (convocatoria ~nov-2025, seleccionadas feb-2026)", "fechas_exactas": "sin dato"},
+    "2026": {"realizadas": 2, "detalle": "BIG12 cerró 25-may-2026; BIG13 cierra 24-nov-2026", "omitida": "Ninguna convocatoria omitida o suspendida encontrada",
+      "urls": ["https://www.emol.com/noticias/Economia/2026/05/06/1199166/startup-chile-convocatoria.html", "https://www.emol.com/noticias/Economia/2026/11/04/1216042/startup-chile-convocatoria.html", "https://www.t13.cl/noticia/emprendedores/big13-start-up-chile-abrio-convocatoria-global-10-11-2026", "https://www.diariooficial.interior.gob.cl/publicaciones/2026/11/03/44589/01/2893766.pdf"]}
+  },
+  "historico": {
+    "startups": "más de 3.000", "url_startups": "https://startupchile.org/",
+    "paises": "85 (dato de 2018: más de 1.600 compañías de 85 países)", "url_paises": "https://www.emol.com/noticias/Economia/2018/11/20/927995/Forbes-destaco-a-StartUp-Chile-como-una-de-las-aceleradoras-lideres-a-nivel-mundial.html",
+    "capital_levantado_usd": 2049797227, "valorizacion_portafolio_usd": 5882794423, "url_impacto": "https://startupchile.org/nuestro-impacto/", "nota_impacto": "La página no fecha estas cifras."
+  },
+  "extranjeros": {"pct_seleccionados": 40, "meta": 50, "url": "https://ecosistemastartup.com/?p=129832", "nota": "Declaración del VP de Corfo vía DF (fuente secundaria). Mismo artículo: ~130 seleccionadas en 2026 → ~200 en 2027; presupuesto Corfo 2027 propuesto ~CLP 425.418M (-9%), sin fuente primaria."}
+}
