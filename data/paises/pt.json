@@ -1,0 +1,264 @@
+{
+ "iso": "pt",
+ "pais": "Portugal",
+ "region": "Iberia",
+ "moneda_local": "EUR",
+ "poblacion_2024_m": 10.7,
+ "pib_2024_usd_bn": 313.7,
+ "fuente_macro": "https://api.worldbank.org/v2/country/BRA;ESP;PRT/indicator/SP.POP.TOTL?date=2024&format=json ; https://api.worldbank.org/v2/country/BRA;ESP;PRT/indicator/NY.GDP.MKTP.CD?date=2024&format=json",
+ "verificado_al": "2026-11-17",
+ "tipo_cambio": {
+  "fuente": "https://data-api.ecb.europa.eu/service/data/EXR/A.USD.EUR.SP00.A?format=csvdata&startPeriod=2018&endPeriod=2025",
+  "usd_por_eur_promedio_anual": {
+   "2018": 1.18095,
+   "2019": 1.11947,
+   "2020": 1.1422,
+   "2021": 1.18274,
+   "2022": 1.05305,
+   "2023": 1.08127,
+   "2024": 1.08238,
+   "2025": 1.12998
+  }
+ },
+ "vc_anual": [
+  {
+   "anio": 2018,
+   "usd_m": null,
+   "eur_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "Dealroom (vía Startup Portugal)",
+   "nota": "sin dato homogéneo; ver vc_anual_alternativas"
+  },
+  {
+   "anio": 2019,
+   "usd_m": null,
+   "eur_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "Dealroom (vía Startup Portugal)",
+   "nota": "sin dato homogéneo; ver vc_anual_alternativas"
+  },
+  {
+   "anio": 2020,
+   "usd_m": null,
+   "eur_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "Dealroom (vía Startup Portugal)",
+   "nota": "sin dato homogéneo; ver vc_anual_alternativas"
+  },
+  {
+   "anio": 2021,
+   "usd_m": null,
+   "eur_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "Dealroom (vía Startup Portugal)",
+   "nota": "sin dato homogéneo; ver vc_anual_alternativas"
+  },
+  {
+   "anio": 2022,
+   "usd_m": null,
+   "eur_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "Dealroom (vía Startup Portugal)",
+   "nota": "sin dato homogéneo; ver vc_anual_alternativas"
+  },
+  {
+   "anio": 2023,
+   "usd_m": null,
+   "eur_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "Dealroom (vía Startup Portugal)",
+   "nota": "sin dato homogéneo; ver vc_anual_alternativas"
+  },
+  {
+   "anio": 2024,
+   "usd_m": 440.5,
+   "eur_m": 407,
+   "operaciones": 193,
+   "fuente": "https://ecoreport.startupportugal.com/",
+   "metodo": "Dealroom (vía Startup Portugal); USD = cálculo propio BCE",
+   "nota": "Startups y scaleups con sede o fundadas en Portugal"
+  },
+  {
+   "anio": 2025,
+   "usd_m": 534.5,
+   "eur_m": 473,
+   "operaciones": 157,
+   "fuente": "https://ecoreport.startupportugal.com/",
+   "metodo": "Dealroom (vía Startup Portugal); USD = cálculo propio BCE",
+   "nota": "Ticket medio 3 M€ (2,1 M€ en 2024)"
+  }
+ ],
+ "vc_anual_alternativas": [
+  {
+   "anio": 2021,
+   "eur_m": 1500,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": "https://eco.sapo.pt/2025/01/15/startups-nacionais-atraem-448-milhoes-de-euros-no-ultimo-ano-mais-do-dobro-que-em-2023/",
+   "metodo": "Dealroom vía ECO (vintage ene-2025)",
+   "nota": "Incluye startups de ADN portugués con sede fuera (año de 'voo de unicórnio')"
+  },
+  {
+   "anio": 2021,
+   "eur_m": 169,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": "https://econews.pt/2022/12/14/portuguese-startup-ecosystem-raised-e710-million-in-2022/",
+   "metodo": "IDC para Startup Portugal (datos Dealroom)",
+   "nota": "Solo startups con sede en Portugal; el ecosistema total fue 1.473 M€"
+  },
+  {
+   "anio": 2022,
+   "eur_m": 421,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": "https://econews.pt/2022/12/14/portuguese-startup-ecosystem-raised-e710-million-in-2022/",
+   "metodo": "IDC para Startup Portugal (datos Dealroom)",
+   "nota": "Solo con sede en Portugal; ecosistema total 710 M€ (a dic-2022, año incompleto)"
+  },
+  {
+   "anio": 2023,
+   "eur_m": 191,
+   "usd_m": null,
+   "operaciones": 201,
+   "fuente": "https://eco.sapo.pt/2025/01/15/startups-nacionais-atraem-448-milhoes-de-euros-no-ultimo-ano-mais-do-dobro-que-em-2023/",
+   "metodo": "Dealroom vía ECO (vintage ene-2025)"
+  },
+  {
+   "anio": 2024,
+   "eur_m": 448,
+   "usd_m": null,
+   "operaciones": 105,
+   "fuente": "https://eco.sapo.pt/2025/01/15/startups-nacionais-atraem-448-milhoes-de-euros-no-ultimo-ano-mais-do-dobro-que-em-2023/",
+   "metodo": "Dealroom vía ECO (vintage ene-2025)",
+   "nota": "El informe Startup Portugal 2026 (Dealroom) da 407 M€ / 193 para 2024"
+  },
+  {
+   "anio": 2026,
+   "eur_m": 694,
+   "usd_m": null,
+   "operaciones": 50,
+   "fuente": "https://ecoreport.startupportugal.com/",
+   "metodo": "Dealroom (vía Startup Portugal), al 27-sep-2026",
+   "nota": "Incluye la ronda de crecimiento de Tekever (527 M€)"
+  }
+ ],
+ "vc_sectores_ultimo_anio": [],
+ "top_rondas": [
+  {
+   "startup": "Tekever",
+   "anio": 2026,
+   "usd_m": null,
+   "eur_m": 527,
+   "ronda": "Growth",
+   "fuente": "https://ecoreport.startupportugal.com/",
+   "nota": "Mayor ronda de la historia de una tecnológica con base en Portugal (sep-2026)"
+  }
+ ],
+ "unicornios": {
+  "n": 7,
+  "anio": 2026,
+  "fuente": "https://ecoreport.startupportugal.com/",
+  "nota": "Conteo de Startup Portugal (sin cambios frente al año anterior); varios tienen sede fuera de Portugal"
+ },
+ "startupblink_2025": {
+  "rank_pais": 29,
+  "fuente": "https://www.startupblink.com/startupecosystemreport2025.pdf",
+  "nota": "En el índice 2026 bajó al 31 (Startup Portugal); Lisboa 87 entre ciudades en 2025"
+ },
+ "programas_publicos": [
+  {
+   "nombre": "StartUP Voucher (Innovate)",
+   "organismo": "IAPMEI / Startup Portugal (Compete 2030)",
+   "tipo": "grant",
+   "monto": "Beca de 900 €/mes durante 9 meses; dotación 5 M€ (edición 2025-26)",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://www.gov.pt/noticias/candidaturas-ao-startup-voucher-innovate-ate-25-de-agosto",
+   "fuentes_convocatorias": [
+    "https://portugalglobal.pt/noticias/2025/novembro/governo-lanca-nova-edicao-do-startup-voucher/",
+    "https://eco.sapo.pt/2026/01/23/candidaturas-ao-startup-voucher-terminam-a-30-de-janeiro/"
+   ],
+   "nota": "4.ª edición abierta 5-nov-2025 (cierre extendido al 30-ene-2026); 3.ª fase hasta 25-ago-2026. Jóvenes hasta 29 años, proyectos de base tecnológica."
+  },
+  {
+   "nombre": "Startup Visa",
+   "organismo": "IAPMEI (con incubadoras certificadas)",
+   "tipo": "visa",
+   "monto": "Residencia para fundadores extracomunitarios; requiere contrato con incubadora certificada",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://startupportugal.com/programa/startup-visa/",
+   "nota": "Ventanilla permanente; programa activo según la página oficial (consultada 17-nov-2026). Sin estadísticas públicas de aprobaciones ni por nacionalidad."
+  },
+  {
+   "nombre": "Tech Visa",
+   "organismo": "IAPMEI",
+   "tipo": "visa",
+   "monto": "Certificación de empresas para contratar talento extracomunitario altamente calificado",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://startupportugal.com/programa/tech-visa/",
+   "nota": "Ventanilla permanente; activo según la página oficial. Sin balance 2025-2026 encontrado."
+  },
+  {
+   "nombre": "Portugal Ventures (grupo Banco Português de Fomento)",
+   "organismo": "BPF / Portugal Ventures",
+   "tipo": "equity",
+   "monto": "12,7 M€ invertidos en 20 empresas en 2025 (4 nuevas startups por 4,1 M€)",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "sin dato",
+   "beneficiarios_ultimo_dato": 20,
+   "fuente": "https://www.portugalventures.pt/wp-content/uploads/2026/08/RGC2025_PortugalVentures_web.pdf",
+   "nota": "Informe de gobierno corporativo 2025. Hay programas (VentureUp, Call Expand) pero no se verificaron fechas de convocatoria."
+  },
+  {
+   "nombre": "Banco Português de Fomento – Fondo de Fondos",
+   "organismo": "BPF",
+   "tipo": "equity",
+   "monto": "Anunciado por el Gobierno en oct-2025 para arrancar en 2026",
+   "convocatoria_2025": "no",
+   "convocatoria_2026": "sin dato",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://rr.pt/noticia/economia/2025/10/29/governo-prepara-criacao-de-fundo-de-fundos-para-apoiar-investimento-empresarial/445671/",
+   "nota": "Una fuente secundaria habla de 1.500 M€ en otoño de 2026; sin confirmación oficial de BPF."
+  }
+ ],
+ "deuda_vs_equity": {
+  "anio": null,
+  "pct_deuda": null,
+  "fuente": null,
+  "nota": "sin dato"
+ },
+ "fundadores_latam": [
+  {
+   "dato": "El 11% de las startups en Portugal tiene capital extranjero (Informa D&B 2026); no hay desglose por país.",
+   "fuente": "https://ecoreport.startupportugal.com/assets/pdf/portugals_startup_ecosystem_2026.pdf"
+  }
+ ],
+ "hallazgos": [
+  "Las startups y scaleups portuguesas captaron 473 M€ en 157 rondas en 2025, frente a 407 M€ en 193 en 2024 (Dealroom vía Startup Portugal).",
+  "A septiembre de 2026 ya suman 694 M€, impulsados por la ronda de 527 M€ de Tekever, la mayor de una tecnológica portuguesa (Dealroom vía Startup Portugal).",
+  "Portugal tiene 5.495 startups (+8%) que facturan 2.995 M€ y emplean ~30.000 personas (Informa D&B 2026).",
+  "Portugal Ventures (grupo BPF) invirtió 12,7 M€ en 20 empresas en 2025.",
+  "StartupBlink: Portugal puesto 29 en 2025 y 31 en 2026.",
+  "661 empresas reconocidas oficialmente bajo la Ley de Startups 21/2023 (Startup Portugal 2026)."
+ ],
+ "sin_verificar": [
+  "Serie VC 2018–2023 homogénea: las cifras públicas usan perímetros distintos (sede en PT vs ADN portugués) y vintages de Dealroom distintos.",
+  "Distribución sectorial del VC 2025.",
+  "Top rondas de 2025 con montos verificables (la ECO cita Sword Health, Indie Campers, Tekever sin montos uniformes).",
+  "Aprobaciones de Startup Visa y Tech Visa por año y nacionalidad (IAPMEI no publica balance; no hay dato de peruanos).",
+  "Participación de deuda vs equity.",
+  "Fechas de convocatorias 2025–2026 de Portugal Ventures y del IFIC Deep Tech (BPF/PRR)."
+ ]
+}

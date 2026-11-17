@@ -1,0 +1,209 @@
+{
+ "iso": "mx",
+ "pais": "México",
+ "region": "LatAm",
+ "moneda_local": "MXN",
+ "poblacion_2024_m": 130.86,
+ "pib_2024_usd_bn": 1830.5,
+ "fuente_macro": "https://api.worldbank.org/v2/country/MEX/indicator/SP.POP.TOTL?date=2024&format=json ; https://api.worldbank.org/v2/country/MEX/indicator/NY.GDP.MKTP.CD?date=2024&format=json",
+ "vc_anual": [
+  {
+   "anio": 2018,
+   "usd_m": 175,
+   "operaciones": 95,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2019,
+   "usd_m": 649,
+   "operaciones": 100,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2020,
+   "usd_m": 847,
+   "operaciones": 106,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2021,
+   "usd_m": 3587,
+   "operaciones": 244,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2022,
+   "usd_m": 1782,
+   "operaciones": 180,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2023,
+   "usd_m": 1144,
+   "operaciones": 156,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2024,
+   "usd_m": 1175,
+   "operaciones": 126,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2025,
+   "usd_m": 1427,
+   "operaciones": 107,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  }
+ ],
+ "vc_sectores_ultimo_anio": [
+  {
+   "sector": "Fintech",
+   "pct": 74.1,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "sector": "E-commerce",
+   "pct": 9.8,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "sector": "Cleantech",
+   "pct": 4.9,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "sector": "Healthtech",
+   "pct": 3.7,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "sector": "Biotech",
+   "pct": 3.5,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  }
+ ],
+ "top_rondas": [
+  {
+   "startup": "Plata",
+   "anio": 2025,
+   "usd_m": 250,
+   "ronda": "Serie B",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "startup": "Klar",
+   "anio": 2025,
+   "usd_m": 170,
+   "ronda": "Serie C",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "startup": "Plata",
+   "anio": 2025,
+   "usd_m": 160,
+   "ronda": "Serie A",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "startup": "Kavak",
+   "anio": 2025,
+   "usd_m": 127,
+   "ronda": "Late-stage",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "startup": "Kapital",
+   "anio": 2025,
+   "usd_m": 100,
+   "ronda": "Serie C",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "startup": "Félix",
+   "anio": 2025,
+   "usd_m": 75,
+   "ronda": "Serie B",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  }
+ ],
+ "unicornios": {
+  "n": 8,
+  "anio": 2026,
+  "fuente": "https://multiples.vc/insights/the-unicorns-of-latin-america"
+ },
+ "startupblink_2025": {
+  "rank_pais": 43,
+  "fuente": "https://elceo.com/negocios/mexico-cae-en-el-ranking-global-de-startups-al-lugar-43/"
+ },
+ "programas_publicos": [
+  {
+   "nombre": "INADEM / Fondo Nacional Emprendedor",
+   "organismo": "Secretaría de Economía",
+   "tipo": "grant",
+   "monto": "FNE 2019: MXN 659,4M (20% del año previo), solo para compromisos de 2018",
+   "convocatoria_2025": "no",
+   "convocatoria_2026": "no",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://amp.milenio.com/negocios/emprender-en-tiempos-nuevos"
+  },
+  {
+   "nombre": "Fondo de Fondos: recursos de la SE para el ecosistema emprendedor",
+   "organismo": "Secretaría de Economía / Fondo de Fondos (Nafin)",
+   "tipo": "equity",
+   "monto": "hasta MXN 800M en 2025 (primera transferencia de 300M); meta MXN 1.600M en 2026",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "sin dato",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://dplnews.com/mexico-reactivara-apoyo-publico-al-ecosistema-emprendedor-con-800-mdp-en-2025-ebrard/"
+  },
+  {
+   "nombre": "Proyectos Ciudadanos – Impulsora de Innovación México",
+   "organismo": "SE / Nafin-Bancomext / Fondo de Fondos",
+   "tipo": "equity",
+   "monto": "capitalización de MXN 4.000M al Fondo de Fondos",
+   "convocatoria_2025": "no",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://expansion.mx/economia/2026/02/25/gobierno-lanza-convocatoria-financiar-empresas-tecnologicas"
+  },
+  {
+   "nombre": "Convocatoria semilla para proyectos de base tecnológica",
+   "organismo": "ATDT / SECIHTI / Nafin (Fondo de Fondos)",
+   "tipo": "equity",
+   "monto": "sin dato",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://elceo.com/negocios/fondo-de-fondos-startups-nafin-jose-merino/"
+  }
+ ],
+ "deuda_vs_equity": {
+  "anio": 2025,
+  "pct_deuda": null,
+  "fuente": null
+ },
+ "hallazgos": [
+  "VC LAVCA 2025: US$1.427M en 107 operaciones, +21% vs 2024; México quedó solo 14% por debajo de Brasil (LAVCA 2026).",
+  "Concentración: Plata sola sumó US$410M (Serie A + Serie B) en 2025, ~9,5% del VC de toda la región (LAVCA 2026).",
+  "Fintech fue ~74% del VC mexicano 2025 (US$1.058M de 1.427) (treemap LAVCA 2026, cálculo propio).",
+  "El INADEM se extinguió en 2019; sus apoyos pasaron a la Secretaría de Economía y el Fondo Nacional Emprendedor quedó con 20% del presupuesto (Expansión; Milenio).",
+  "El apoyo público volvió vía Fondo de Fondos: hasta MXN 800M anunciados en dic-2025 y convocatoria 'Proyectos Ciudadanos' abierta del 25-feb al 30-abr-2026 (DPL News; Expansión).",
+  "El número de operaciones cayó de 244 (2021) a 107 (2025): menos rondas, más grandes (LAVCA 2026)."
+ ],
+ "sin_verificar": [
+  "Venture debt en México 2025: LAVCA no lo desagrega por país; la deuda estructurada de Plata (US$500M, Nomura) queda fuera de sus cifras.",
+  "Ganadores de Proyectos Ciudadanos y de la convocatoria semilla ATDT–SECIHTI–Nafin: no publicados al corte.",
+  "Montos por startup de la convocatoria semilla (Forbes México citado por fuente secundaria: hasta MXN 6M semilla / 20M avanzados).",
+  "StartupBlink 2025: México #43 según El CEO; el ranking original (startupblink.com) bloquea bots.",
+  "Unicornios: 8 por sede según multiples.vc (oct-2026), conteo sobre la parte visible de la tabla."
+ ]
+}

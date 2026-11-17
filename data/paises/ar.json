@@ -1,0 +1,161 @@
+{
+ "iso": "ar",
+ "pais": "Argentina",
+ "region": "LatAm",
+ "moneda_local": "ARS",
+ "poblacion_2024_m": 45.7,
+ "pib_2024_usd_bn": 638.4,
+ "fuente_macro": "https://api.worldbank.org/v2/country/ARG/indicator/SP.POP.TOTL?date=2024&format=json ; https://api.worldbank.org/v2/country/ARG/indicator/NY.GDP.MKTP.CD?date=2024&format=json",
+ "vc_anual": [
+  {
+   "anio": 2018,
+   "usd_m": 84,
+   "operaciones": 19,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2019,
+   "usd_m": 290,
+   "operaciones": 29,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2020,
+   "usd_m": 215,
+   "operaciones": 29,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2021,
+   "usd_m": 1306,
+   "operaciones": 83,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2022,
+   "usd_m": 375,
+   "operaciones": 106,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2023,
+   "usd_m": 114,
+   "operaciones": 73,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2024,
+   "usd_m": 411,
+   "operaciones": 76,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2025,
+   "usd_m": 216,
+   "operaciones": 77,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  }
+ ],
+ "vc_sectores_ultimo_anio": [
+  {
+   "sector": "Fintech",
+   "pct": 62.5,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "sector": "Agtech",
+   "pct": 13.4,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  }
+ ],
+ "top_rondas": [
+  {
+   "startup": "Ualá",
+   "anio": 2024,
+   "usd_m": 300,
+   "ronda": "Serie E",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf"
+  },
+  {
+   "startup": "Ualá",
+   "anio": 2019,
+   "usd_m": 150,
+   "ronda": "Expansion stage",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf"
+  },
+  {
+   "startup": "Ualá",
+   "anio": 2025,
+   "usd_m": 66,
+   "ronda": "Serie E (TelevisaUnivision)",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  }
+ ],
+ "unicornios": {
+  "n": 2,
+  "anio": 2026,
+  "fuente": "https://multiples.vc/insights/the-unicorns-of-latin-america"
+ },
+ "startupblink_2025": {
+  "rank_pais": 46,
+  "fuente": "https://www.bloomberglinea.com.br/startups/brasil-tem-o-melhor-melhor-ecossistema-de-startups-da-america-latina-segundo-estudo/"
+ },
+ "programas_publicos": [
+  {
+   "nombre": "Fondo Semilla (Ley 27.349, art. 63)",
+   "organismo": "Secretaría de Emprendedores y PyME",
+   "tipo": "prestamo",
+   "monto": "préstamos de honor (hasta ARS 250.000 en su diseño original)",
+   "convocatoria_2025": "no",
+   "convocatoria_2026": "no",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://www.boletinoficial.gob.ar/detalleAviso/primera/218408/20191008"
+  },
+  {
+   "nombre": "FONDCE – Fondo Fiduciario para el Desarrollo de Capital Emprendedor",
+   "organismo": "Ministerio de Economía (fiduciario BICE)",
+   "tipo": "equity",
+   "monto": "disuelto por Decreto 1048/2024",
+   "convocatoria_2025": "no",
+   "convocatoria_2026": "no",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://www.memo.com.ar/poder/mas-motosierra-por-decreto-se-eliminaron-cinco-fondos-fiduciarios/"
+  },
+  {
+   "nombre": "Programas Semilla y Triple F (provincial, Córdoba)",
+   "organismo": "Agencia Córdoba Innovar y Emprender",
+   "tipo": "equity",
+   "monto": "hasta ARS 40M de fondos públicos (coinversión)",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://ecosistemastartup.com/?p=88833"
+  }
+ ],
+ "deuda_vs_equity": {
+  "anio": 2025,
+  "pct_deuda": null,
+  "fuente": null
+ },
+ "hallazgos": [
+  "VC LAVCA 2025: US$216M en 77 operaciones, -47% vs 2024 (US$411M) y -83% vs 2021 (US$1.306M) (LAVCA 2026).",
+  "Ualá es casi todo el mapa: Serie E de US$300M en 2024 y US$66M en 2025 (LAVCA 2025 y 2026).",
+  "El gobierno de Milei disolvió el FONDCE (fondo de la Ley de Emprendedores 27.349) por Decreto 1048/2024, citando una auditoría de SIGEN (Memo, nov-2024).",
+  "La última convocatoria nacional del Fondo Semilla localizada es de oct-nov 2019 (Boletín Oficial); en 2025–2026 el apoyo visible es provincial (Córdoba) o privado.",
+  "Hay un proyecto de ley en Diputados para restablecer el FONDCE (HCDN, 2026), sin tratamiento confirmado."
+ ],
+ "sin_verificar": [
+  "Estado de la Secretaría PyME y de otros instrumentos de la Ley 27.349 (SAS, Fondo Aceleración/Expansión) bajo Milei.",
+  "Venture debt en Argentina 2025.",
+  "Unicornios: 2 por sede (Ualá, Despegar) según multiples.vc; Ámbito cuenta 11 por fundadores argentinos (Mercado Libre, Globant, Auth0, Vercel, etc.): el criterio cambia el resultado.",
+  "Sectores 2025: porcentajes leídos de un treemap del PDF LAVCA."
+ ]
+}

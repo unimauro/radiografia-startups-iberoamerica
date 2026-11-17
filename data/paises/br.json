@@ -1,0 +1,254 @@
+{
+ "iso": "br",
+ "pais": "Brasil",
+ "region": "LatAm",
+ "moneda_local": "BRL",
+ "poblacion_2024_m": 212.0,
+ "pib_2024_usd_bn": 2185.8,
+ "fuente_macro": "https://api.worldbank.org/v2/country/BRA;ESP;PRT/indicator/SP.POP.TOTL?date=2024&format=json ; https://api.worldbank.org/v2/country/BRA;ESP;PRT/indicator/NY.GDP.MKTP.CD?date=2024&format=json",
+ "verificado_al": "2026-11-17",
+ "vc_anual": [
+  {
+   "anio": 2018,
+   "usd_m": 1300,
+   "operaciones": 259,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf",
+   "metodo": "LAVCA",
+   "nota": "LAVCA lo reporta redondeado: 'US$1.3b invested across 259 deals'"
+  },
+  {
+   "anio": 2019,
+   "usd_m": 2490,
+   "operaciones": 222,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf",
+   "metodo": "LAVCA",
+   "nota": "'US$2.49B invested across 222 deals'"
+  },
+  {
+   "anio": 2020,
+   "usd_m": 2550,
+   "operaciones": 312,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf",
+   "metodo": "LAVCA",
+   "nota": "Gráfico 'VC Investment in Latin America by Country, 2020-2024' (Trends in Tech 2025)"
+  },
+  {
+   "anio": 2021,
+   "usd_m": 7774,
+   "operaciones": 468,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA",
+   "nota": "La edición 2025 decía 7.767"
+  },
+  {
+   "anio": 2022,
+   "usd_m": 3184,
+   "operaciones": 508,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2023,
+   "usd_m": 1867,
+   "operaciones": 356,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA",
+   "nota": "La edición 2025 decía 1.865 / 351"
+  },
+  {
+   "anio": 2024,
+   "usd_m": 2032,
+   "operaciones": 359,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA",
+   "nota": "La edición 2025 decía 2.013 / 353"
+  },
+  {
+   "anio": 2025,
+   "usd_m": 1670,
+   "operaciones": 296,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  }
+ ],
+ "vc_anual_alternativas": [
+  {
+   "anio": 2025,
+   "usd_m": 4500,
+   "operaciones": 459,
+   "fuente": "https://startups.com.br/negocios/equity-encolhe-e-credito-passa-a-dominar-investimentos-em-startups/",
+   "metodo": "Sling Hub (incluye FIDC y deuda)",
+   "nota": "Solo equity: US$1.740M en 412 rondas (~39%). FIDC: US$2.380M en 27; deuda: US$161M en 15; híbridas: US$32,7M en 2. NO comparable con LAVCA."
+  }
+ ],
+ "vc_sectores_ultimo_anio": [
+  {
+   "sector": "Fintech",
+   "pct": 44.1,
+   "usd_m": 736,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "nota": "cálculo propio: 736 / 1.670 (treemap LAVCA 2025)"
+  },
+  {
+   "sector": "Healthtech",
+   "pct": 7.0,
+   "usd_m": 117,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "nota": "cálculo propio: 117 / 1.670; valor leído del treemap"
+  },
+  {
+   "sector": "Legaltech",
+   "pct": 4.8,
+   "usd_m": 80,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "nota": "cálculo propio: 80 / 1.670; valor leído del treemap"
+  }
+ ],
+ "top_rondas": [
+  {
+   "startup": "Omie",
+   "anio": 2025,
+   "usd_m": 158.2,
+   "ronda": "Late-Stage (ERP)",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "startup": "Creditas",
+   "anio": 2025,
+   "usd_m": 108.0,
+   "ronda": "Serie G",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "startup": "Credix",
+   "anio": 2025,
+   "usd_m": 84.0,
+   "ronda": "Venture debt",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "startup": "QI Tech",
+   "anio": 2025,
+   "usd_m": 63.0,
+   "ronda": "Serie B",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  }
+ ],
+ "unicornios": {
+  "n": 22,
+  "anio": 2026,
+  "fuente": "https://www.distrito.me/blog/lista-dos-unicornios-brasileiros",
+  "nota": "Distrito, 'Corrida dos Unicórnios 2026': 22 vigentes (llegó a 24); Enter (IA legal) se sumó en may-2026. Otras bases dan 25–30."
+ },
+ "startupblink_2025": {
+  "rank_pais": 27,
+  "fuente": "https://www.startupblink.com/startupecosystemreport2025.pdf",
+  "nota": "1.º de LatAm; São Paulo puesto 23 entre ciudades"
+ },
+ "programas_publicos": [
+  {
+   "nombre": "Programa Centelha 3",
+   "organismo": "Finep / MCTI + FAP estatales",
+   "tipo": "grant",
+   "monto": "R$124 M de Finep para la 3.ª edición (convocatoria a estados, oct-2024); editais estatales p. ej. ES R$4,2 M",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://convergenciadigital.com.br/inovacao/finep-convoca-estados-com-r-124-milhoes-para-estimular-startups/",
+   "fuentes_convocatorias": [
+    "https://fapes.es.gov.br/Media/fapes/Editais/Edital%2018_2025%20-%20Centelha%20III.pdf",
+    "https://www.tribunadosertao.com.br/alagoas/2026/05/29/910979-centelha-3-alagoas-lanca-edital-para-apoiar-ate-47-projetos-inovadores"
+   ],
+   "nota": "Se ejecuta por editais estatales: 2025 (ES, RS, PE, BA, RN, CE, GO) y 2026 (MS, AL, RO, MG). Sin total nacional de aprobados."
+  },
+  {
+   "nombre": "BNDES Garagem (3.ª edición)",
+   "organismo": "BNDES (operado por Quintessa)",
+   "tipo": "aceleracion",
+   "monto": "Hasta R$1 M en premios por ciclo; hasta 100 negocios (50 Criação + 50 Tração)",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://movimentoeconomico.com.br/tecnologia/2026/11/02/bndes-abre-inscricoes-para-acelerar-ate-100-startups-com-foco-no-nordeste/",
+   "fuentes_convocatorias": [
+    "https://www.xataka.com.br/diversos/bndes-abre-inscricoes-para-selecionar-ate-100-startups-impacto-para-programa-bndes-garagem"
+   ],
+   "nota": "Ciclo 2025 abierto en ago-2025; ciclo 2026 inscripciones 28-oct a 30-nov-2026 (aceleración desde feb-2027). Foco impacto socioambiental, ≥40% Norte/Nordeste/Centro-Oeste."
+  },
+  {
+   "nombre": "InovAtiva (Brasil / de Impacto)",
+   "organismo": "MDIC + Sebrae",
+   "tipo": "aceleracion",
+   "monto": "Gratuito (mentoría); premios de R$10.000/R$5.000 en InovAtiva de Impacto",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://agenciasebrae.com.br/inovacao-e-tecnologia/inovativa-de-impacto-2026-abre-inscricoes-a-partir-do-dia-13/",
+   "fuentes_convocatorias": [
+    "https://agenciasebrae.com.br/inovacao-e-tecnologia/hub-inovativa-abre-inscricoes-para-o-ciclo-2025-de-aceleracao-de-startups"
+   ],
+   "nota": "Ciclo 2025: hasta 90 startups (InovAtiva Brasil, foco industria). 2026: confirmado InovAtiva de Impacto (13-abr a 22-may-2026); no se halló edital del InovAtiva Brasil generalista 2026."
+  },
+  {
+   "nombre": "Finep Mais Inovação (subvención económica)",
+   "organismo": "Finep / MCTI",
+   "tipo": "grant",
+   "monto": "Edital de subvención regional (N, NE, CO) ampliado de R$300 M a R$450 M en 2026; >R$1.600 M en subvención Finep 2026 según análisis jurídico",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://paraibabusiness.com.br/finep-amplia-edital-para-r-450-milhoes-paraiba-tem-projeto-aprovado/",
+   "fuentes_convocatorias": [
+    "https://blogs.correiobraziliense.com.br/jusbraziliense/2026/08/05/subvencao-finep-2026-mais-de-r-16-bilhao-que-sua-empresa-nao-precisa-devolver/"
+   ],
+   "nota": "No es exclusivo de startups (empresas innovadoras en general). Editais 2026 cerraron mayormente el 31-ago-2026."
+  },
+  {
+   "nombre": "Finep Startup",
+   "organismo": "Finep",
+   "tipo": "equity",
+   "monto": "Primer edital: hasta R$400 M en 4 años (~50 empresas/año)",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "sin dato",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://convergenciadigital.com.br/inovacao/edital-da-finep-para-startups-oferece-at-r-400-milhes-em-quatro-anos/",
+   "nota": "No se encontró edital de Finep Startup abierto en 2025 ni 2026."
+  },
+  {
+   "nombre": "FIP Conexões Startups",
+   "organismo": "BNDES + Finep",
+   "tipo": "equity",
+   "monto": "Fondo objetivo R$250 M (selección de gestor)",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://startups.com.br/negocios/bndes-e-finep-abrem-edital-para-fundo-de-r-250m/",
+   "fuentes_convocatorias": [
+    "https://www.bndes.gov.br/wps/portal/site/home/mercado-de-capitais/fundos-de-investimentos/chamadas-publicas-para-selecao-de-fundos/fip-conexoes-startups-2026"
+   ],
+   "nota": "Edital jun-2026 para elegir gestora; invertirá en startups con ingresos brutos de hasta R$20 M/año."
+  }
+ ],
+ "deuda_vs_equity": {
+  "anio": 2025,
+  "pct_deuda": 56.5,
+  "fuente": "https://startups.com.br/negocios/equity-encolhe-e-credito-passa-a-dominar-investimentos-em-startups/",
+  "nota": "cálculo propio con Sling Hub: (FIDC 2.380 + deuda 161) / 4.500 US$M. Equity puro = ~39%."
+ },
+ "hallazgos": [
+  "Brasil sigue siendo el mayor mercado de VC de LatAm (US$1.670M en 296 operaciones en 2025), pero México quedó a solo 14% (LAVCA Trends in Tech 2026).",
+  "La inversión VC en Brasil cayó 79% desde el pico de 2021 (US$7.774M) a 2025 (US$1.670M), según LAVCA.",
+  "Fintech concentró ~44% del VC brasileño de 2025 (US$736M de US$1.670M, LAVCA; cálculo propio).",
+  "Según Sling Hub, en 2025 el crédito (FIDC + deuda) superó al equity: solo ~39% de los US$4.500M captados fue equity.",
+  "Brasil tiene 22 unicornios vigentes según Distrito (2026); llegó a tener 24.",
+  "StartupBlink 2025: Brasil puesto 27 mundial (sin cambio frente a 2024), primero de América Latina."
+ ],
+ "sin_verificar": [
+  "Serie Distrito/Sling Hub 2018–2024 comparable (solo se publicó el total 2025 de Sling Hub).",
+  "Sectores 2025 distintos de Fintech: valores leídos del treemap de LAVCA (texto extraído con pdftotext); revisar el PDF antes de citar.",
+  "Número de startups aprobadas en Centelha 3 a nivel nacional.",
+  "Beneficiarios de BNDES Garagem ciclo 2025 e InovAtiva 2025.",
+  "Edital de Finep Startup en 2025–2026.",
+  "Monto total de la rodada 2 de Finep Mais Inovação (un boletín Firjan habla de R$3.300 M en 13 editais, pero el PDF responde 403)."
+ ]
+}

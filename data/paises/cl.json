@@ -1,0 +1,201 @@
+{
+ "iso": "cl",
+ "pais": "Chile",
+ "region": "LatAm",
+ "moneda_local": "CLP",
+ "poblacion_2024_m": 19.76,
+ "pib_2024_usd_bn": 329.3,
+ "fuente_macro": "https://api.worldbank.org/v2/country/CHL/indicator/SP.POP.TOTL?date=2024&format=json ; https://api.worldbank.org/v2/country/CHL/indicator/NY.GDP.MKTP.CD?date=2024&format=json",
+ "vc_anual": [
+  {
+   "anio": 2018,
+   "usd_m": 46,
+   "operaciones": 49,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2019,
+   "usd_m": 63,
+   "operaciones": 40,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2020,
+   "usd_m": 139,
+   "operaciones": 36,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2021,
+   "usd_m": 889,
+   "operaciones": 96,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2022,
+   "usd_m": 535,
+   "operaciones": 116,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2023,
+   "usd_m": 269,
+   "operaciones": 88,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2024,
+   "usd_m": 184,
+   "operaciones": 74,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2025,
+   "usd_m": 250,
+   "operaciones": 50,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  }
+ ],
+ "vc_sectores_ultimo_anio": [
+  {
+   "sector": "Fintech",
+   "pct": 40.0,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "sector": "HRtech",
+   "pct": 24.4,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "sector": "E-commerce",
+   "pct": 15.2,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  }
+ ],
+ "top_rondas": [
+  {
+   "startup": "NotCo",
+   "anio": 2021,
+   "usd_m": 235,
+   "ronda": "Serie D",
+   "fuente": "https://www.fooddive.com/news/plant-based-notco-gets-235m-for-expansion/603901/"
+  },
+  {
+   "startup": "Betterfly",
+   "anio": 2022,
+   "usd_m": 125,
+   "ronda": "Serie C",
+   "fuente": "https://forbes.cl/negocios/2022-02-01/chile-tiene-un-nuevo-unicornio-betterfly-recauda-us-125-millones-y-queda-valorada-en-us-1-000-millones"
+  },
+  {
+   "startup": "Buk",
+   "anio": 2025,
+   "usd_m": 50,
+   "ronda": "Serie B",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "startup": "AgendaPro",
+   "anio": 2025,
+   "usd_m": 35,
+   "ronda": "Serie B",
+   "fuente": "https://chocale.cl/2025/08/agendapro-cierra-ronda-de-inversion-serie-b-de-us35-millones/"
+  },
+  {
+   "startup": "Vambe",
+   "anio": 2025,
+   "usd_m": 14,
+   "ronda": "Serie A",
+   "fuente": "https://www.bloomberglinea.com/negocios/startup-chilena-vambe-cerro-ronda-de-us14-millones-y-suma-a-ceo-de-rappi-a-su-junta-directiva/"
+  }
+ ],
+ "unicornios": {
+  "n": 2,
+  "anio": 2026,
+  "fuente": "https://multiples.vc/insights/the-unicorns-of-latin-america"
+ },
+ "startupblink_2025": {
+  "rank_pais": 37,
+  "fuente": "https://www.bloomberglinea.com.br/startups/brasil-tem-o-melhor-melhor-ecossistema-de-startups-da-america-latina-segundo-estudo/"
+ },
+ "programas_publicos": [
+  {
+   "nombre": "Start-Up Chile (Build / Ignite / Growth, convocatorias BIG)",
+   "organismo": "Corfo",
+   "tipo": "grant",
+   "monto": "CLP 15M (Build), 30M (Ignite), 75M (Growth)",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": 128,
+   "fuente": "https://startupchile.org/en/blog/big-12-get-to-know-the-new-batch/"
+  },
+  {
+   "nombre": "Semilla Inicia",
+   "organismo": "Corfo",
+   "tipo": "grant",
+   "monto": "hasta CLP 15M (75% cofinanciamiento)",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": 50,
+   "fuente": "https://www.emol.com/noticias/Economia/2026/08/27/1209721/corfo-emprendimientos-mercados.html"
+  },
+  {
+   "nombre": "Semilla Expande",
+   "organismo": "Corfo",
+   "tipo": "grant",
+   "monto": "hasta CLP 25M (etapa 1) + 20M (etapa 2)",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": 95,
+   "fuente": "https://www.latercera.com/emprendimiento/noticia/programa-expande-de-corfo-abre-primera-convocatoria-2026-para-apoyar-el-despegue-comercial-de-emprendimientos-chilenos/"
+  },
+  {
+   "nombre": "Líneas de capital de riesgo (F1–FET, fondos FIC)",
+   "organismo": "Corfo",
+   "tipo": "prestamo",
+   "monto": "US$1.061M acumulados en 72 fondos (al 31-dic-2024)",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "sin dato",
+   "beneficiarios_ultimo_dato": 497,
+   "fuente": "https://endeavor.cl/wp-content/uploads/2025/10/20251002_Endeavor_Venture-Capital-2025_FW_V2.pdf"
+  },
+  {
+   "nombre": "Fondo de Fondos (proyecto de ley)",
+   "organismo": "Ministerio de Economía / Corfo",
+   "tipo": "equity",
+   "monto": "US$25M el primer año (propuesto)",
+   "convocatoria_2025": "no",
+   "convocatoria_2026": "no",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://portalinnova.cl/ministerio-de-economia-y-corfo-presentan-proyecto-de-fondo-de-fondos/"
+  }
+ ],
+ "deuda_vs_equity": {
+  "anio": 2025,
+  "pct_deuda": null,
+  "fuente": null
+ },
+ "hallazgos": [
+  "VC LAVCA 2025: US$250M en 50 operaciones, +36% vs 2024 pero -72% vs el pico de 2021 (US$889M) (LAVCA Trends in Tech 2026).",
+  "La serie ACVC es otra metodología: US$311M en 2024 (DF) y US$854M en 2025 (fuente secundaria); no se mezcla con LAVCA.",
+  "Start-Up Chile hizo 2 convocatorias en 2025 y 2 en 2026; BIG13 cierra el 24-nov-2026 (startupchile.org/postula).",
+  "Fintech fue ~40% del VC 2025 (US$100M de 250), seguido de HRtech (US$61M, por la Serie B de Buk) (treemap LAVCA 2026, cálculo propio).",
+  "2020 = US$139M en 36 operaciones según LAVCA Trends in Tech 2025 (el repo Chile/Colombia lo tenía como sin dato)."
+ ],
+ "sin_verificar": [
+  "Ventas 2025 ACVC (US$854M) solo en fuente secundaria (ecosistemastartup.com).",
+  "Seleccionados de Semilla Inicia y Expande en 2025.",
+  "Porcentaje de venture debt en el VC chileno 2025: LAVCA no lo publica por país.",
+  "Unicornios: conteo por sede (multiples.vc, oct-2026: Cornershop y NotCo); Betterfly no figura; el criterio cambia entre fuentes.",
+  "Sectores 2025: porcentajes leídos de un treemap del PDF (posición de etiquetas)."
+ ]
+}

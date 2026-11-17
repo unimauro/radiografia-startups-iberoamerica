@@ -1,0 +1,201 @@
+{
+ "iso": "co",
+ "pais": "Colombia",
+ "region": "LatAm",
+ "moneda_local": "COP",
+ "poblacion_2024_m": 52.89,
+ "pib_2024_usd_bn": 420.5,
+ "fuente_macro": "https://api.worldbank.org/v2/country/COL/indicator/SP.POP.TOTL?date=2024&format=json ; https://api.worldbank.org/v2/country/COL/indicator/NY.GDP.MKTP.CD?date=2024&format=json",
+ "vc_anual": [
+  {
+   "anio": 2018,
+   "usd_m": 334,
+   "operaciones": 19,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2019,
+   "usd_m": 1090,
+   "operaciones": 36,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2020,
+   "usd_m": 500,
+   "operaciones": 41,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2021,
+   "usd_m": 1583,
+   "operaciones": 90,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2022,
+   "usd_m": 1203,
+   "operaciones": 130,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2023,
+   "usd_m": 395,
+   "operaciones": 93,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2024,
+   "usd_m": 513,
+   "operaciones": 78,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2025,
+   "usd_m": 552,
+   "operaciones": 71,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  }
+ ],
+ "vc_sectores_ultimo_anio": [
+  {
+   "sector": "Fintech",
+   "pct": 62.0,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "sector": "Super apps",
+   "pct": 18.1,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  }
+ ],
+ "top_rondas": [
+  {
+   "startup": "Rappi",
+   "anio": 2019,
+   "usd_m": 1000,
+   "ronda": "SoftBank",
+   "fuente": "https://lexlatin.com/noticias/softbank-invierte-usd-1000-millones-en-rappi"
+  },
+  {
+   "startup": "Rappi",
+   "anio": 2021,
+   "usd_m": 500,
+   "ronda": "Serie G",
+   "fuente": "https://forbes.co/2021/07/19/negocios/rappi-eleva-su-valuacion-a-us5-200-millones-tras-levantar-us500-millones-en-ronda-de-inversion/"
+  },
+  {
+   "startup": "ADDI",
+   "anio": 2024,
+   "usd_m": 186,
+   "ronda": "Ronda (LAVCA)",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf"
+  },
+  {
+   "startup": "Rappi",
+   "anio": 2025,
+   "usd_m": 100,
+   "ronda": "Venture debt",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "startup": "ADDI",
+   "anio": 2025,
+   "usd_m": 71,
+   "ronda": "Venture debt",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  },
+  {
+   "startup": "ADDI",
+   "anio": 2025,
+   "usd_m": 70,
+   "ronda": "Venture debt",
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+  }
+ ],
+ "unicornios": {
+  "n": 1,
+  "anio": 2026,
+  "fuente": "https://multiples.vc/insights/the-unicorns-of-latin-america"
+ },
+ "startupblink_2025": {
+  "rank_pais": 36,
+  "fuente": "https://www.bloomberglinea.com.br/startups/brasil-tem-o-melhor-melhor-ecossistema-de-startups-da-america-latina-segundo-estudo/"
+ },
+ "programas_publicos": [
+  {
+   "nombre": "ALDEA",
+   "organismo": "iNNpulsa Colombia",
+   "tipo": "grant",
+   "monto": "hasta COP 50M por emprendimiento (2024)",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "sin dato",
+   "beneficiarios_ultimo_dato": 164,
+   "fuente": "https://www.vanguardia.com/economia/2024/11/19/ministerio-de-comercio-ha-fortalecido-este-ano-mas-de-28000-emprendedores-a-traves-de-innpulsa/"
+  },
+  {
+   "nombre": "Emprendimiento Digital (con MinTIC)",
+   "organismo": "iNNpulsa Colombia",
+   "tipo": "aceleracion",
+   "monto": "sin dato",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": 32,
+   "fuente": "https://www.innpulsacolombia.com/wp-content/uploads/2026/04/PPT-CONVOCATORIAS-ED-2026-1.pdf"
+  },
+  {
+   "nombre": "iNNpulsa Mujeres (economía popular)",
+   "organismo": "iNNpulsa Colombia / MinCIT",
+   "tipo": "aceleracion",
+   "monto": "sin dato",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": 5900,
+   "fuente": "https://www.mincit.gov.co/prensa/noticias/industria/mincit-impulsa-a-5-900-mujeres-de-economia-popular"
+  },
+  {
+   "nombre": "Fondo de Fondos (Capital para Emprender, Bancóldex Capital, Fomento Micro VC)",
+   "organismo": "Bancóldex",
+   "tipo": "equity",
+   "monto": "AUM COP 375.339M (2024)",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "sin dato",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://forbes.co/2025/04/23/emprendedores/ruta-n-y-bancoldex-invierten-13-400-millones-en-nuevo-fondo-fintech-de-simma-capital"
+  },
+  {
+   "nombre": "Fondo Emprender",
+   "organismo": "SENA",
+   "tipo": "grant",
+   "monto": "COP 282.000M en 12 convocatorias (2026)",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": 2000,
+   "fuente": "https://www.infobae.com/colombia/2026/03/17/mas-de-282000-millones-para-emprendedores-sena-abre-12-convocatorias-en-colombia-con-capital-semilla/"
+  }
+ ],
+ "deuda_vs_equity": {
+  "anio": 2025,
+  "pct_deuda": 55.5,
+  "fuente": "https://www.bloomberglinea.com/negocios/las-10-startups-en-colombia-que-mas-inversiones-recibieron-en-2025-segun-kpmg/"
+ },
+ "hallazgos": [
+  "VC LAVCA 2025: US$552M en 71 operaciones (+8% vs 2024), aún 65% bajo el pico de 2021 (US$1.583M) (LAVCA 2026).",
+  "En 2025, 55,5% del financiamiento a startups colombianas fue venture debt (US$476M de 857, KPMG vía Bloomberg Línea; serie no comparable con LAVCA).",
+  "Rappi y ADDI concentran: Rappi (venture debt US$100M) y ADDI (3 tramos de deuda, US$191M) suman 53% del total LAVCA 2025 (cálculo propio).",
+  "iNNpulsa vivió una crisis de liquidez en 2025 y se relanzó fusionado el 1-nov-2025; en 2026 abrió Emprendimiento Digital e iNNpulsa Mujeres (MinCIT, Fiducoldex)."
+ ],
+ "sin_verificar": [
+  "Convocatoria ALDEA 2025 y 2026: no se encontró.",
+  "Bancóldex Fondo de Fondos: no se halló convocatoria a gestores en 2026.",
+  "Unicornios: multiples.vc (oct-2026) lista solo a Rappi por sede; Habi y ADDI no figuran; el criterio cambia entre fuentes.",
+  "SENA Fondo Emprender 2025: sin dato de convocatorias."
+ ]
+}

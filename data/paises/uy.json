@@ -1,0 +1,138 @@
+{
+ "iso": "uy",
+ "pais": "Uruguay",
+ "region": "LatAm",
+ "moneda_local": "UYU",
+ "poblacion_2024_m": 3.39,
+ "pib_2024_usd_bn": 82.3,
+ "fuente_macro": "https://api.worldbank.org/v2/country/URY/indicator/SP.POP.TOTL?date=2024&format=json ; https://api.worldbank.org/v2/country/URY/indicator/NY.GDP.MKTP.CD?date=2024&format=json",
+ "vc_anual": [
+  {
+   "anio": 2018,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2019,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2020,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2021,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2022,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2023,
+   "usd_m": 62,
+   "operaciones": null,
+   "fuente": "https://www.elobservador.com.uy/cafe-y-negocios/levantar-capital-el-desafio-que-enfrentan-las-startups-uruguay-captar-inversiones-y-los-consejos-los-que-ya-pasaron-el-proceso-n5978420",
+   "metodo": "prensa (El Observador; fuente original no explícita)"
+  },
+  {
+   "anio": 2024,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "LAVCA"
+  },
+  {
+   "anio": 2025,
+   "usd_m": 51,
+   "operaciones": null,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA"
+  }
+ ],
+ "vc_sectores_ultimo_anio": [],
+ "top_rondas": [
+  {
+   "startup": "Nowports",
+   "anio": 2022,
+   "usd_m": 250,
+   "ronda": "Serie C (unicornio)",
+   "fuente": "https://www.uruguayxxi.gub.uy/uploads/informacion/d420f65ed6872de7dd4170d62d1c6a01d9d08391.pdf"
+  }
+ ],
+ "unicornios": {
+  "n": 2,
+  "anio": 2022,
+  "fuente": "https://www.uruguayxxi.gub.uy/uploads/informacion/d420f65ed6872de7dd4170d62d1c6a01d9d08391.pdf"
+ },
+ "startupblink_2025": {
+  "rank_pais": 61,
+  "fuente": "https://www.bloomberglinea.com.br/startups/brasil-tem-o-melhor-melhor-ecossistema-de-startups-da-america-latina-segundo-estudo/"
+ },
+ "programas_publicos": [
+  {
+   "nombre": "Apoyo a Emprendimientos Innovadores (capital semilla)",
+   "organismo": "ANII",
+   "tipo": "grant",
+   "monto": "no reembolsable hasta 80% del proyecto, tope UYU 3.000.000",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://anii.org.uy/upcms/files/llamados/documentos/bases-de-apoyo-a-emprendimientos-innovadores-actualizadas-junio-2026-.docx-2-.pdf"
+  },
+  {
+   "nombre": "Herramienta de coinversión (SAFE / notas convertibles)",
+   "organismo": "ANII",
+   "tipo": "equity",
+   "monto": "casi US$1M en tres startups (dato de prensa)",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "sin dato",
+   "beneficiarios_ultimo_dato": 3,
+   "fuente": "https://www.forbesargentina.com/negocios/anii-invirtio-casi-us-1000000-tres-startups-uruguayas-n94568"
+  },
+  {
+   "nombre": "Sprint UY (atracción de startups extranjeras)",
+   "organismo": "ANII + Uruguay XXI",
+   "tipo": "aceleracion",
+   "monto": "programa de inmersión (cubre costos)",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": 9,
+   "fuente": "https://anii.org.uy/upcms/files/llamados/documentos/1779457599_bases-sprintuy-2026.pdf"
+  }
+ ],
+ "deuda_vs_equity": {
+  "anio": 2025,
+  "pct_deuda": null,
+  "fuente": null
+ },
+ "hallazgos": [
+  "LAVCA registra US$51M de VC en startups uruguayas en 2025 (treemap por país, LAVCA 2026); no publica serie anual de Uruguay.",
+  "2023: US$62M según El Observador (ene-2025), que no nombra la fuente original del dato.",
+  "ANII mantiene su capital semilla con postulación permanente: hasta UYU 3M no reembolsables (80% del proyecto), bases actualizadas en jun-2026.",
+  "Sprint UY 2026 (ANII + Uruguay XXI) recibió postulaciones hasta el 21-jul-2026 para traer startups extranjeras (bases ANII).",
+  "Uruguay XXI cuenta dos unicornios uruguayos: dLocal (2020) y Nowports (2022); PedidosYa superó US$1.000M pero vía adquisición."
+ ],
+ "sin_verificar": [
+  "Serie anual de VC 2018–2024 (LAVCA no la publica por país para Uruguay).",
+  "Uruguay XXI/Urucap: ~35 rondas en 2024 (promedio ~US$400k), solo en resumen de prensa (El Observador, oct-2025).",
+  "Beneficiarios anuales del capital semilla ANII 2025–2026.",
+  "Sprint UY 2025: edición previa no verificada (2026 es la tercera).",
+  "Sectores del VC 2025: sin dato.",
+  "Unicornios: multiples.vc cuenta 2 por sede (MercadoLibre y dLocal); Uruguay XXI cuenta dLocal y Nowports."
+ ]
+}

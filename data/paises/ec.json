@@ -1,0 +1,133 @@
+{
+ "iso": "ec",
+ "pais": "Ecuador",
+ "region": "LatAm",
+ "moneda_local": "USD",
+ "poblacion_2024_m": 18.14,
+ "pib_2024_usd_bn": 123.8,
+ "fuente_macro": "https://api.worldbank.org/v2/country/ECU/indicator/SP.POP.TOTL?date=2024&format=json ; https://api.worldbank.org/v2/country/ECU/indicator/NY.GDP.MKTP.CD?date=2024&format=json",
+ "vc_anual": [
+  {
+   "anio": 2018,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "sin serie"
+  },
+  {
+   "anio": 2019,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "sin serie"
+  },
+  {
+   "anio": 2020,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "sin serie"
+  },
+  {
+   "anio": 2021,
+   "usd_m": 97,
+   "operaciones": 14,
+   "fuente": "https://ekosnegocios.com/articulo/ecuacap-lanza-el-primer-reporte-de-venture-capital-en-ecuador",
+   "metodo": "ECUACAP"
+  },
+  {
+   "anio": 2022,
+   "usd_m": 151,
+   "operaciones": 17,
+   "fuente": "https://ekosnegocios.com/articulo/ecuacap-lanza-el-primer-reporte-de-venture-capital-en-ecuador",
+   "metodo": "ECUACAP"
+  },
+  {
+   "anio": 2023,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "sin serie"
+  },
+  {
+   "anio": 2024,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "sin serie"
+  },
+  {
+   "anio": 2025,
+   "usd_m": null,
+   "operaciones": null,
+   "fuente": null,
+   "metodo": "sin serie"
+  }
+ ],
+ "vc_sectores_ultimo_anio": [],
+ "top_rondas": [
+  {
+   "startup": "Kushki",
+   "anio": 2022,
+   "usd_m": 100,
+   "ronda": "Serie C (unicornio, valoración US$1.500M)",
+   "fuente": "https://techcrunch.com/?p=2331131"
+  },
+  {
+   "startup": "Kushki",
+   "anio": 2021,
+   "usd_m": 86,
+   "ronda": "Serie B",
+   "fuente": "https://dplnews.com/?p=101766"
+  }
+ ],
+ "unicornios": {
+  "n": 1,
+  "anio": 2022,
+  "fuente": "https://ekosnegocios.com/articulo/ecuacap-lanza-el-primer-reporte-de-venture-capital-en-ecuador"
+ },
+ "startupblink_2025": {
+  "rank_pais": null,
+  "fuente": null
+ },
+ "programas_publicos": [
+  {
+   "nombre": "Crédito Emprende Violeta",
+   "organismo": "BanEcuador",
+   "tipo": "prestamo",
+   "monto": "hasta US$5.000 al 9,8%",
+   "convocatoria_2025": "no",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://www.primicias.ec/economia/credito-violeta-tasa-interes-mujeres-emprendedoras-115421/"
+  },
+  {
+   "nombre": "Crédito Violeta (lanzado mar-2025)",
+   "organismo": "BanEcuador",
+   "tipo": "prestamo",
+   "monto": "hasta US$20.000 al 16,08%",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://www.primicias.ec/economia/requisitos-credito-violeta-banecuador-banco-mujeres-emprendedoras-115646/"
+  }
+ ],
+ "deuda_vs_equity": {
+  "anio": 2025,
+  "pct_deuda": null,
+  "fuente": null
+ },
+ "hallazgos": [
+  "ECUACAP midió US$151M en 17 operaciones en 2022 (+56% vs US$97M en 2021); Kushki explica buena parte (Ekos, sep-2023).",
+  "La Ley Orgánica de Emprendimiento e Innovación (RO Supl. 151, 28-feb-2020) creó el CONEIN y reguló el crowdfunding, pero no un fondo público de capital de riesgo (gob.ec).",
+  "El crédito público para emprender en 2026 es microcrédito, no capital de riesgo: BanEcuador lanzó 'Emprende Violeta' (hasta US$5.000 al 9,8%) el 5-feb-2026 (Primicias).",
+  "LAVCA no publica cifras de Ecuador; no hay una serie anual comparable de VC."
+ ],
+ "sin_verificar": [
+  "VC 2025: un documento del BID mencionaría US$12,5M en 10 transacciones; el PDF devuelve 403 y no se pudo leer.",
+  "VC 2018–2020 y 2023–2024: sin dato.",
+  "StartupBlink 2025: Ecuador no aparece en las notas de prensa; la página actual de startupblink.com (bloquea bots) lo ubicaría en el puesto 94.",
+  "Programas de capital semilla de MIPRO/CFN para startups en 2025–2026: no se encontraron convocatorias.",
+  "Beneficiarios de los créditos Violeta."
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "iso": "pe",
+ "pais": "Perú",
+ "region": "LatAm",
+ "moneda_local": "PEN",
+ "poblacion_2024_m": 34.22,
+ "pib_2024_usd_bn": 291.8,
+ "fuente_macro": "https://api.worldbank.org/v2/country/PER/indicator/SP.POP.TOTL?date=2024&format=json ; https://api.worldbank.org/v2/country/PER/indicator/NY.GDP.MKTP.CD?date=2024&format=json",
+ "vc_anual": [
+  {
+   "anio": 2018,
+   "usd_m": 9.1,
+   "operaciones": 51,
+   "fuente": "https://infomercado.pe/inversion-de-las-grandes-empresas-en-startups-se-duplico-el-2019",
+   "metodo": "PECAP"
+  },
+  {
+   "anio": 2019,
+   "usd_m": 21.0,
+   "operaciones": 63,
+   "fuente": "https://forbes.pe/economia-y-finanzas/2022-04-11/la-inversion-en-startups-peruanas-casi-se-triplico-en-2021/",
+   "metodo": "PECAP"
+  },
+  {
+   "anio": 2020,
+   "usd_m": 46.0,
+   "operaciones": 21,
+   "fuente": "https://forbes.pe/economia-y-finanzas/2022-04-11/la-inversion-en-startups-peruanas-casi-se-triplico-en-2021/",
+   "metodo": "PECAP"
+  },
+  {
+   "anio": 2021,
+   "usd_m": 124.3,
+   "operaciones": 27,
+   "fuente": "https://forbes.pe/economia-y-finanzas/2022-04-11/la-inversion-en-startups-peruanas-casi-se-triplico-en-2021/",
+   "metodo": "PECAP"
+  },
+  {
+   "anio": 2022,
+   "usd_m": 87.0,
+   "operaciones": 41,
+   "fuente": "https://forbes.pe/negocios/2023-03-21/inversion-en-startups-peruanas-alcanzo-los-us-87-millones-en-2022/",
+   "metodo": "PECAP"
+  },
+  {
+   "anio": 2023,
+   "usd_m": 50.0,
+   "operaciones": null,
+   "fuente": "https://elcomercio.pe/economia/dia-1/inversion-en-startups-como-le-fue-a-latinoamerica-y-peru-en-el-ultimo-ano-empresas-estrategia-negocios-venture-capital-noticia/",
+   "metodo": "PECAP",
+   "nota": "PECAP vía El Comercio (≈US$50M)"
+  },
+  {
+   "anio": 2024,
+   "usd_m": 47.0,
+   "operaciones": 33,
+   "fuente": "https://ecosistemastartup.com/?p=82717",
+   "metodo": "PECAP"
+  },
+  {
+   "anio": 2025,
+   "usd_m": 76.5,
+   "operaciones": 23,
+   "fuente": "https://www.cofide.com.pe/wp-content/uploads/2026/06/NP-COFIDE-y-PECAP-presentan-informe.pdf",
+   "metodo": "PECAP"
+  }
+ ],
+ "vc_sectores_ultimo_anio": [
+  {
+   "sector": "Fintech",
+   "pct": 76.9,
+   "fuente": "https://gestion.pe/economia/empresas/startups-peruanas-en-el-exterior-los-tres-paises-mas-atractivos-donde-buscan-crecer-noticia/"
+  },
+  {
+   "sector": "Proptech",
+   "pct": 19.9,
+   "fuente": "https://gestion.pe/economia/empresas/startups-peruanas-en-el-exterior-los-tres-paises-mas-atractivos-donde-buscan-crecer-noticia/"
+  }
+ ],
+ "top_rondas": [
+  {
+   "startup": "Crehana",
+   "anio": 2021,
+   "usd_m": 70,
+   "ronda": "Serie B (incluye ~US$15M de venture debt)",
+   "fuente": "https://forbes.pe/economia-y-finanzas/2022-04-11/la-inversion-en-startups-peruanas-casi-se-triplico-en-2021/"
+  },
+  {
+   "startup": "Favo",
+   "anio": 2021,
+   "usd_m": 26.5,
+   "ronda": "Serie A",
+   "fuente": "https://forbes.pe/economia-y-finanzas/2022-04-11/la-inversion-en-startups-peruanas-casi-se-triplico-en-2021/"
+  },
+  {
+   "startup": "Chazki",
+   "anio": 2021,
+   "usd_m": 7,
+   "ronda": "Serie A",
+   "fuente": "https://forbes.pe/economia-y-finanzas/2022-04-11/la-inversion-en-startups-peruanas-casi-se-triplico-en-2021/"
+  }
+ ],
+ "unicornios": {
+  "n": 0,
+  "anio": 2026,
+  "fuente": "https://multiples.vc/insights/the-unicorns-of-latin-america"
+ },
+ "startupblink_2025": {
+  "rank_pais": 67,
+  "fuente": "https://www.bloomberglinea.com.br/startups/brasil-tem-o-melhor-melhor-ecossistema-de-startups-da-america-latina-segundo-estudo/"
+ },
+ "programas_publicos": [
+  {
+   "nombre": "StartUp Perú (EIN / EDI)",
+   "organismo": "ProInnóvate (PRODUCE)",
+   "tipo": "grant",
+   "monto": "S/67.000 a S/150.000 por proyecto",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "no",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://startup.proinnovate.gob.pe/"
+  },
+  {
+   "nombre": "Concursos Regionales 2026",
+   "organismo": "ProInnóvate (PRODUCE)",
+   "tipo": "grant",
+   "monto": "S/1,8M en total",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": 28,
+   "fuente": "https://www.gob.pe/institucion/proinnovate/noticias/1426299-proinnovate-financiara-proyectos-innovadores-por-un-monto-de-s-1-8-millones"
+  },
+  {
+   "nombre": "Venture Ready: Peru to U.S. (no es programa del Estado peruano)",
+   "organismo": "Departamento de Estado de EE.UU. / Embajada en Lima",
+   "tipo": "aceleracion",
+   "monto": "sin capital (mentoría)",
+   "convocatoria_2025": "no",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": 29,
+   "fuente": "https://forbes.pe/negocios/2026-10-15/16-startups-peruanas-buscan-us231-millones-que-necesitan-para-atraer-inversion-internacional"
+  }
+ ],
+ "deuda_vs_equity": {
+  "anio": 2025,
+  "pct_deuda": 72,
+  "fuente": "https://www.cofide.com.pe/wp-content/uploads/2026/06/NP-COFIDE-y-PECAP-presentan-informe.pdf"
+ },
+ "hallazgos": [
+  "VC 2025: US$76,5M en 23 operaciones (+64% en monto, -30% en operaciones), pero 72% fue deuda: el equity fue ~US$21M (COFIDE–PECAP, jun-2026).",
+  "StartUp Perú no abrió una convocatoria nueva en 2026: la 13G se lanzó el 29-dic-2025 y cerró el 16-ene-2026; la 14G no tiene bases al 16-nov-2026 (ProInnóvate).",
+  "Fintech captó 76,9% y proptech 19,9% del VC 2025 (PECAP vía Gestión).",
+  "97% de la inversión en startups peruanas viene de fuentes internacionales; brecha de financiamiento ~US$516M a cinco años (COFIDE–PECAP).",
+  "LAVCA casi no cubre Perú: US$16M/11 operaciones en 2018, US$3M/6 en 2019 y US$30M en 2024, frente a 9,1 / 21 / 47 de PECAP: no son comparables con Chile o Colombia."
+ ],
+ "sin_verificar": [
+  "Operaciones 2023: sin dato.",
+  "Mayores rondas 2024 y 2025: PECAP no las publica en las notas encontradas.",
+  "Ganadores StartUp Perú 13G: el repo de Perú cuenta 478 'ganadores posibles' a partir de PDFs; no es la cifra oficial de adjudicados.",
+  "Serie 2018: 9,1 (PECAP, Infomercado) frente a 16 (LAVCA); 2019: 20,6 o 21 según la nota."
+ ]
+}

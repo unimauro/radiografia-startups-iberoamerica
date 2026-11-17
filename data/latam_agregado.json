@@ -1,0 +1,168 @@
+{
+ "titulo": "Venture capital en América Latina (LAVCA), 2018–2025",
+ "verificado_al": "2026-11-17",
+ "fuente_principal": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+ "metodologia": "LAVCA: seed, early-stage (Series A-B), late-stage (Series C+) y venture debt de fondos cerrados. Excluye líneas de crédito, deuda bancaria y FIDCs (en 2025 sumaron >US$2.000M aparte de los US$4.300M). Totales y operaciones de la edición 2026 (revisa años previos).",
+ "anual": [
+  {
+   "anio": 2018,
+   "usd_bn": 2.3,
+   "operaciones": 460,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA",
+   "venture_debt_usd_bn": null,
+   "pct_deuda": null,
+   "pct_por_pais": {
+    "br": 56.5,
+    "mx": 7.6,
+    "co": 14.5,
+    "ar": 3.7,
+    "cl": 2.0,
+    "pe": 0.7
+   }
+  },
+  {
+   "anio": 2019,
+   "usd_bn": 5.0,
+   "operaciones": 483,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA",
+   "venture_debt_usd_bn": null,
+   "pct_deuda": null,
+   "pct_por_pais": {
+    "br": 49.8,
+    "mx": 13.0,
+    "co": 21.8,
+    "ar": 5.8,
+    "cl": 1.3,
+    "pe": 0.1
+   }
+  },
+  {
+   "anio": 2020,
+   "usd_bn": 4.4,
+   "operaciones": 552,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA",
+   "venture_debt_usd_bn": null,
+   "pct_deuda": null,
+   "pct_por_pais": {
+    "br": 58.0,
+    "mx": 19.2,
+    "co": 11.4,
+    "ar": 4.9,
+    "cl": 3.2
+   }
+  },
+  {
+   "anio": 2021,
+   "usd_bn": 16.0,
+   "operaciones": 981,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA",
+   "venture_debt_usd_bn": 0.9,
+   "pct_deuda": 5.6,
+   "pct_por_pais": {
+    "br": 48.6,
+    "mx": 22.4,
+    "co": 9.9,
+    "ar": 8.2,
+    "cl": 5.6
+   }
+  },
+  {
+   "anio": 2022,
+   "usd_bn": 8.0,
+   "operaciones": 1206,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA",
+   "venture_debt_usd_bn": 1.2,
+   "pct_deuda": 15.0,
+   "pct_por_pais": {
+    "br": 39.8,
+    "mx": 22.3,
+    "co": 15.0,
+    "ar": 4.7,
+    "cl": 6.7
+   }
+  },
+  {
+   "anio": 2023,
+   "usd_bn": 4.3,
+   "operaciones": 836,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA",
+   "venture_debt_usd_bn": 0.9,
+   "pct_deuda": 20.9,
+   "pct_por_pais": {
+    "br": 43.4,
+    "mx": 26.6,
+    "co": 9.2,
+    "ar": 2.7,
+    "cl": 6.3
+   }
+  },
+  {
+   "anio": 2024,
+   "usd_bn": 4.6,
+   "operaciones": 780,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA",
+   "venture_debt_usd_bn": 0.8,
+   "pct_deuda": 17.4,
+   "pct_por_pais": {
+    "br": 44.2,
+    "mx": 25.5,
+    "co": 11.2,
+    "ar": 8.9,
+    "cl": 4.0,
+    "pe": 0.7
+   }
+  },
+  {
+   "anio": 2025,
+   "usd_bn": 4.3,
+   "operaciones": 664,
+   "fuente": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf",
+   "metodo": "LAVCA",
+   "venture_debt_usd_bn": 0.6,
+   "pct_deuda": 14.0,
+   "pct_por_pais": {
+    "br": 38.8,
+    "mx": 33.2,
+    "co": 12.8,
+    "ar": 5.0,
+    "cl": 5.8,
+    "uy": 1.2
+   }
+  }
+ ],
+ "pct_deuda_nota": "venture_debt_usd_bn leído del gráfico apilado 'Annual VC Investment by Stage' (LAVCA 2026, p. 3) por posición de etiquetas; 2018–2020 sin etiqueta visible de venture debt. pct_deuda = cálculo propio.",
+ "operaciones_nota": "Operaciones 2018–2024 asignadas por posición de columna en el gráfico de la p. 2; 2025 = 664 confirmado en el texto.",
+ "pct_por_pais_nota": "Cálculo propio: US$ del país / total LatAm del mismo año. Fuentes por país: 2018 LAVCA Tech Report 2019; 2019 VC Tech Report 2020; 2020 Trends in Tech 2025; 2021–2025 Trends in Tech 2026. Brasil 2018–2019 viene de los reportes 2019/2020 (redondeado a US$1,3b y US$2,49b). Perú 2024 (US$30M) viene del treemap de Trends in Tech 2025. Los totales regionales de 2018–2019 fueron revisados en la edición 2026 (2,3 y 5,0) mientras que los montos por país son de la edición original: los porcentajes de esos años son aproximados.",
+ "fuentes_por_anio": {
+  "2018": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf",
+  "2019": "https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf",
+  "2020": "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf",
+  "2021-2025": "https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf"
+ },
+ "otras_fuentes_no_comparables": [
+  {
+   "fuente": "LAVCA Trends in Tech 2025 (edición anterior)",
+   "nota": "2017 = US$1,1b; 2023 = 4,2; 2024 = 4,5 (revisados al alza en 2026)",
+   "url": "https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf"
+  },
+  {
+   "fuente": "PitchBook vía Bloomberg Línea",
+   "nota": "2024 = US$4,1b; 2025 a septiembre = US$4,6b: otra metodología",
+   "url": "https://www.bloomberglinea.com/negocios/startups-batallan-por-la-inversion-lo-que-latinoamerica-puede-hacer-para-ser-mas-atractiva/"
+  }
+ ],
+ "hallazgos": [
+  "El VC en LatAm se estabilizó en ~US$4.300–4.600M al año desde 2023, lejos del pico de US$16.000M de 2021 (LAVCA 2026).",
+  "Las operaciones cayeron de 1.206 (2022) a 664 (2025): menos rondas y más grandes; cinco startups (Plata, ADDI, Klar, Omie, Kavak) captaron ~25% del capital de 2025.",
+  "México quedó a 14% de Brasil en 2025 (US$1.427M vs 1.670M); la LatAm hispanohablante captó ~59–60% del VC.",
+  "El venture debt pesó ~14% del VC LatAm en 2025 según el gráfico de LAVCA, pero la deuda fuera de su perímetro (líneas de crédito, FIDCs) superó los US$2.000M.",
+  "Perú, Uruguay y Ecuador casi no aparecen en LAVCA: Perú US$30M en 2024, Uruguay US$51M en 2025, Ecuador sin dato."
+ ]
+}

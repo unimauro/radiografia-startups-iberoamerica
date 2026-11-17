@@ -1,0 +1,313 @@
+{
+ "iso": "es",
+ "pais": "España",
+ "region": "Iberia",
+ "moneda_local": "EUR",
+ "poblacion_2024_m": 48.8,
+ "pib_2024_usd_bn": 1725.7,
+ "fuente_macro": "https://api.worldbank.org/v2/country/BRA;ESP;PRT/indicator/SP.POP.TOTL?date=2024&format=json ; https://api.worldbank.org/v2/country/BRA;ESP;PRT/indicator/NY.GDP.MKTP.CD?date=2024&format=json",
+ "verificado_al": "2026-11-17",
+ "tipo_cambio": {
+  "fuente": "https://data-api.ecb.europa.eu/service/data/EXR/A.USD.EUR.SP00.A?format=csvdata&startPeriod=2018&endPeriod=2025",
+  "usd_por_eur_promedio_anual": {
+   "2018": 1.18095,
+   "2019": 1.11947,
+   "2020": 1.1422,
+   "2021": 1.18274,
+   "2022": 1.05305,
+   "2023": 1.08127,
+   "2024": 1.08238,
+   "2025": 1.12998
+  }
+ },
+ "vc_anual": [
+  {
+   "anio": 2018,
+   "usd_m": 1449.1,
+   "eur_m": 1227.1,
+   "operaciones": 199,
+   "fuente": "https://elreferente.es/ecosistema/el-ano-2020-cierra-con-1-101-786-millones-de-euros-invertidos-en-startups-espanolas/",
+   "metodo": "El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE",
+   "nota": "Dato citado en el cierre 2020 de El Referente / Fundación Innovación Bankinter"
+  },
+  {
+   "anio": 2019,
+   "usd_m": 1229.3,
+   "eur_m": 1098.1,
+   "operaciones": 205,
+   "fuente": "https://elreferente.es/ecosistema/el-ano-2020-cierra-con-1-101-786-millones-de-euros-invertidos-en-startups-espanolas/",
+   "metodo": "El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE",
+   "nota": "Dato citado en el cierre 2020"
+  },
+  {
+   "anio": 2020,
+   "usd_m": 1258.5,
+   "eur_m": 1101.8,
+   "operaciones": 338,
+   "fuente": "https://elreferente.es/ecosistema/el-ano-2020-cierra-con-1-101-786-millones-de-euros-invertidos-en-startups-espanolas/",
+   "metodo": "El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE"
+  },
+  {
+   "anio": 2021,
+   "usd_m": 5033.7,
+   "eur_m": 4256,
+   "operaciones": 406,
+   "fuente": "https://elreferente.es/actualidad/la-inversion-en-startups-cae-un-50-y-el-ano-2023-cierra-con-1-525-millones-de-euros-invertidos-en-332-operaciones/",
+   "metodo": "El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE",
+   "nota": "Cifra revisada; el cierre original de dic-2021 decía 4.207 / 400"
+  },
+  {
+   "anio": 2022,
+   "usd_m": 3543.5,
+   "eur_m": 3365,
+   "operaciones": 412,
+   "fuente": "https://elreferente.es/actualidad/la-inversion-en-startups-cae-un-50-y-el-ano-2023-cierra-con-1-525-millones-de-euros-invertidos-en-332-operaciones/",
+   "metodo": "El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE",
+   "nota": "El cierre 2025 la reexpresa como 3.270 / 416"
+  },
+  {
+   "anio": 2023,
+   "usd_m": 1648.9,
+   "eur_m": 1525,
+   "operaciones": 332,
+   "fuente": "https://elreferente.es/actualidad/la-inversion-en-startups-cae-un-50-y-el-ano-2023-cierra-con-1-525-millones-de-euros-invertidos-en-332-operaciones/",
+   "metodo": "El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE",
+   "nota": "Excluye >300 M€ de préstamos y deuda"
+  },
+  {
+   "anio": 2024,
+   "usd_m": 2543.6,
+   "eur_m": 2350,
+   "operaciones": 300,
+   "fuente": "https://elreferente.es/actualidad/la-inversion-en-startups-en-2024-crece-mas-de-un-50-y-suma-2-350-millones-de-euros-invertidos-en-espana/",
+   "metodo": "El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE",
+   "nota": "'casi 2.350 M€ en alrededor de 300 operaciones'; excluye 613 M€ de préstamo y deuda. El cierre 2025 implica una base 2024 mayor (+8,5%)"
+  },
+  {
+   "anio": 2025,
+   "usd_m": 3582.0,
+   "eur_m": 3170,
+   "operaciones": 303,
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "metodo": "El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE",
+   "nota": "INCLUYE 312 M€ de deuda (~9,8%): cambio metodológico frente a 2023–2024"
+  }
+ ],
+ "vc_anual_alternativas": [
+  {
+   "anio": 2025,
+   "usd_m": 3100,
+   "operaciones": null,
+   "fuente": "https://dealroom.co/deep-dives/spain/",
+   "metodo": "Dealroom",
+   "nota": "'reaching $3.1B in 2025'; 2026 ene-sep: US$2.700M"
+  }
+ ],
+ "vc_sectores_ultimo_anio": [
+  {
+   "sector": "Inteligencia Artificial",
+   "pct": 11.4,
+   "eur_m": 362.6,
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "nota": "pct reportado por El Referente"
+  },
+  {
+   "sector": "Traveltech / Turismo",
+   "pct": 9.4,
+   "eur_m": 297.7,
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "nota": "cálculo propio: eur_m / 3.170 M€"
+  },
+  {
+   "sector": "Biotech",
+   "pct": 9.1,
+   "eur_m": 289,
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "nota": "cálculo propio: eur_m / 3.170 M€"
+  },
+  {
+   "sector": "Talento / Laboral",
+   "pct": 8.7,
+   "eur_m": 276.5,
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "nota": "cálculo propio: eur_m / 3.170 M€"
+  },
+  {
+   "sector": "Movilidad",
+   "pct": 8.0,
+   "eur_m": 252.3,
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "nota": "cálculo propio: eur_m / 3.170 M€"
+  },
+  {
+   "sector": "Deeptech",
+   "pct": 7.2,
+   "eur_m": 227,
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "nota": "cálculo propio: eur_m / 3.170 M€"
+  },
+  {
+   "sector": "eHealth",
+   "pct": 6.2,
+   "eur_m": 195,
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "nota": "cálculo propio: eur_m / 3.170 M€"
+  },
+  {
+   "sector": "Fintech",
+   "pct": 5.5,
+   "eur_m": 173.2,
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "nota": "cálculo propio: eur_m / 3.170 M€"
+  }
+ ],
+ "top_rondas": [
+  {
+   "startup": "Perk",
+   "anio": 2025,
+   "usd_m": 214.7,
+   "eur_m": 190,
+   "ronda": "sin dato",
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "nota": "usd_m = cálculo propio (BCE 2025)"
+  },
+  {
+   "startup": "Multiverse Computing",
+   "anio": 2025,
+   "usd_m": 213.6,
+   "eur_m": 189,
+   "ronda": "sin dato",
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "nota": "usd_m = cálculo propio (BCE 2025)"
+  },
+  {
+   "startup": "Xoople",
+   "anio": 2025,
+   "usd_m": 154.8,
+   "eur_m": 137,
+   "ronda": "sin dato",
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "nota": "usd_m = cálculo propio (BCE 2025)"
+  },
+  {
+   "startup": "SpliceBio",
+   "anio": 2025,
+   "usd_m": 133.3,
+   "eur_m": 118,
+   "ronda": "sin dato",
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "nota": "usd_m = cálculo propio (BCE 2025)"
+  },
+  {
+   "startup": "Factorial",
+   "anio": 2025,
+   "usd_m": 124.3,
+   "eur_m": 110,
+   "ronda": "sin dato",
+   "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+   "nota": "usd_m = cálculo propio (BCE 2025)"
+  }
+ ],
+ "unicornios": {
+  "n": 18,
+  "anio": 2026,
+  "fuente": "https://dealroom.co/deep-dives/spain/",
+  "nota": "Dealroom: 18 acumulados ('$1B+ valuation or exit', incluye salidas). ICEX/Dealroom (jul-2026): 17 en activo."
+ },
+ "startupblink_2025": {
+  "rank_pais": 14,
+  "fuente": "https://www.startupblink.com/startupecosystemreport2025.pdf",
+  "nota": "Mejor posición histórica; Barcelona 33, Madrid 51 entre ciudades"
+ },
+ "programas_publicos": [
+  {
+   "nombre": "Préstamos participativos ENISA (Jóvenes Emprendedores, Emprendedores, Crecimiento)",
+   "organismo": "ENISA – Ministerio de Industria y Turismo",
+   "tipo": "prestamo",
+   "monto": "25.000 € a 1,5 M€ por empresa, sin garantías; 86,2 M€ concedidos en 2025",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": 514,
+   "fuente": "https://www.mintur.gob.es/es-es/gabineteprensa/notasprensa/2026/documents/20260129%20np%20balance%20enisa.pdf",
+   "fuentes_convocatorias": [
+    "https://www.mintur.gob.es/es-es/gabineteprensa/notasprensa/2026/documents/20260521%20np%20enisa.pdf"
+   ],
+   "nota": "Desde 2025 ventanilla permanente (fondos MRR, sin estacionalidad). 514 préstamos en 2025, de ellos 376 a startups y pymes."
+  },
+  {
+   "nombre": "NEOTEC",
+   "organismo": "CDTI – Ministerio de Ciencia, Innovación y Universidades",
+   "tipo": "grant",
+   "monto": "Hasta 250.000 € (70% del presupuesto); 2026: 20,38 M€ ampliado a 43,38 M€",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": 130,
+   "fuente": "https://www.ciencia.gob.es/Noticias/2025/diciembre/resoluci-n_convocatoria_neotec.html",
+   "fuentes_convocatorias": [
+    "https://www.cdti.es/sites/default/files/2026-04/convocatoria_neotec_2026.pdf",
+    "https://elreferente.es/opinion/neotec-2026-supera-los-43-millones-mas-oportunidades-para-las-startups-tecnologicas/"
+   ],
+   "nota": "NEOTEC 2025 resuelta (dic-2025): 40 M€ para 130 pymes (64 de uso dual). NEOTEC 2026: solicitudes hasta 14-may-2026."
+  },
+  {
+   "nombre": "Ley de Startups 28/2022: certificación de empresa emergente (régimen fiscal) y visado de emprendedor / nómada digital",
+   "organismo": "ENISA (certificación) + UGE (residencias)",
+   "tipo": "visa",
+   "monto": "Tipo reducido del Impuesto sobre Sociedades, stock options, residencia para fundadores y teletrabajadores",
+   "convocatoria_2025": "si",
+   "convocatoria_2026": "si",
+   "beneficiarios_ultimo_dato": 2100,
+   "fuente": "https://digital.gob.es/content/dam/portal-mtdfp/comunicacion/comunicacion_sedia/2026/2026-06-24/260624NPForoEmpresasEmergentes.pdf",
+   "nota": "Trámite permanente. >2.100 empresas certificadas entre 2023 y mar-2026 (plazo medio 45 días). Residencias Ley 14/2013: 23.608 (2020) → 91.170 (2024), sin desglose por nacionalidad."
+  },
+  {
+   "nombre": "Fond-ICO Next Tech",
+   "organismo": "ICO / Axis + SEDIA",
+   "tipo": "equity",
+   "monto": "Fondo de fondos y coinversión; hasta 49% de un vehículo (máx. 100 M€); directas 5–20 M€",
+   "convocatoria_2025": "sin dato",
+   "convocatoria_2026": "sin dato",
+   "beneficiarios_ultimo_dato": null,
+   "fuente": "https://www.ico.es/en/web/axis/fond-ico-next-tech",
+   "nota": "Ventanilla abierta para gestoras; no se halló resolución específica 2025 ni 2026 (sí de Fond-ICO Global)."
+  }
+ ],
+ "deuda_vs_equity": {
+  "anio": 2025,
+  "pct_deuda": 9.8,
+  "fuente": "https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/",
+  "nota": "cálculo propio: 312 / 3.170 M€ (El Referente dice 'algo más del 9%')"
+ },
+ "fundadores_latam": [
+  {
+   "dato": "En la V edición de Puentes de Talento (Ayuntamiento de Madrid + BID Lab, 2025), 15 fundadores de Argentina, Chile, Colombia, México y Perú; Perú fue el país con más startups participantes.",
+   "fuente": "https://thestandardcio.com/2025/06/04/puentes-de-talento-se-consolida-como-hub-de-innovacion"
+  },
+  {
+   "dato": "La I edición de Puentes de Talento (2023) trajo a Madrid 10 participantes de Perú, Argentina (4), México y Uruguay.",
+   "fuente": "https://www.cronista.com/espana/economia-finanzas/madrid-busca-convertirse-en-el-centro-tecnologico-de-europa-de-la-mano-de-los-emprendedores-latinoamericanos"
+  },
+  {
+   "dato": "España-Latam Scale Up 2023 (ICEX-Invest in Spain, BID Lab, Endeavor): 17 startups de 360 candidatas; incluyó a la peruana Excuela.",
+   "fuente": "https://www.investinspain.org/en/noticias-main/2023/elsu-23"
+  }
+ ],
+ "hallazgos": [
+  "España cerró 2025 con 3.170 M€ (~US$3.582M) en 303 operaciones, muy cerca de 2022, pero con 27% menos operaciones (El Referente).",
+  "El récord sigue siendo 2021: 4.256 M€ en 406 operaciones (El Referente).",
+  "La IA pasó a ser el primer sector en 2025: 362,6 M€, 11,4% del total, ocho veces lo de 2024 (El Referente).",
+  "Las 25 mayores rondas de 2025 concentraron el 52,38% del capital (1.660 M€) (El Referente).",
+  "NEOTEC 2025 dio 40 M€ a 130 pymes; NEOTEC 2026 subió de 20,38 a 43,38 M€ (CDTI, El Referente).",
+  "ENISA concedió 514 préstamos participativos por 86,2 M€ en 2025 (Ministerio de Industria).",
+  "Más de 2.100 empresas emergentes certificadas por la Ley de Startups entre 2023 y mar-2026 (SEDIA).",
+  "StartupBlink 2025: España sube al puesto 14 mundial, su mejor posición."
+ ],
+ "sin_verificar": [
+  "Las cifras de El Referente se reexpresan entre informes (p. ej. 2022: 3.365 vs 3.270 M€; 2024: 2.350 vs una base implícita ~2.920 M€ en el cierre 2025). 2025 incluye deuda y 2023–2024 no: la serie no es homogénea.",
+  "Serie Dealroom 2018–2024 para España (solo se obtuvo el total 2025: US$3.100M).",
+  "Cifra alternativa Fundación Innovación Bankinter 2025 (3.108 M€ / 376 rondas): solo vista en resúmenes; emprendedores.es responde 403.",
+  "Visados de emprendedor por nacionalidad (no hay datos públicos UGE/ENISA por país; peruanos sin cuantificar).",
+  "Tipo de ronda (serie) de las 5 mayores de 2025.",
+  "Convocatorias/resoluciones de Fond-ICO Next Tech en 2025–2026."
+ ]
+}

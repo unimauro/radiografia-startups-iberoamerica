@@ -1,9 +1,17 @@
-# Datasets — Radiografía de las Startups en Chile y Colombia
+# Datasets — Radiografía de las Startups en Iberoamérica
 
 Cifras recopiladas de fuentes públicas (verificadas al 16-nov-2026). Cada registro trae su `url`.
 Las cifras de inversión varían según la fuente y la metodología; **no se mezclan series**.
 
-## Archivos
+## Iberoamérica (v0.2, 17-nov-2026)
+| Archivo | Contenido |
+|---|---|
+| `paises/{pe,cl,co,mx,ar,uy,ec,br,es,pt}.json` | Esquema común: `iso`, `pais`, `poblacion_2024_m`, `pib_2024_usd_bn`, `fuente_macro`, `vc_anual[]` (anio, usd_m, operaciones, fuente, metodo; `eur_m` en ES/PT), `vc_sectores_ultimo_anio[]`, `top_rondas[]`, `unicornios`, `startupblink_2025`, `programas_publicos[]` (convocatoria_2025/2026 = si/no/sin dato), `deuda_vs_equity`, `hallazgos[]`, `sin_verificar[]`. Opcionales: `vc_anual_alternativas`, `tipo_cambio`, `fundadores_latam`, `nota`. |
+| `latam_agregado.json` | Total LatAm LAVCA 2018–2025, operaciones, venture debt y % por país |
+| `iberoamerica_vc_anual.csv`, `iberoamerica_programas.csv` | CSV planos generados por `scripts/build_inline.py` |
+| `notas_latam.md`, `notas_br_es_pt.md` | Notas de investigación, criterios y conflictos |
+
+## Edición Chile–Colombia (v0.1, 16-nov-2026)
 | Archivo | Contenido | Fuentes principales |
 |---|---|---|
 | `chile_vc_anual.json` / `.csv` | VC en Chile 2018–2025: series LAVCA, ACVC y otras (separadas), sectores 2024, rondas | LAVCA, ACVC (vía InvestChile/DF), entorno.vc |

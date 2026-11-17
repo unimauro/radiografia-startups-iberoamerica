@@ -19,16 +19,21 @@ from concurrent.futures import ThreadPoolExecutor
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 URL_RE = re.compile(r"https?://[^\s\"'<>\]`]+")
 IGNORAR = ("fonts.googleapis.com", "fonts.gstatic.com", "cdnjs.cloudflare.com",
-           "googletagmanager.com", "github.com/unimauro", "unimauro.github.io")
+           "googletagmanager.com", "github.com/unimauro", "unimauro.github.io",
+           "cdn.jsdelivr.net", "github.com/topojson")
 
 
 def recolectar():
     urls = {}
-    archivos = list((ROOT / "data").glob("*.json")) + [ROOT / "DATA_SOURCES.md", ROOT / "index.html"]
+    archivos = (list((ROOT / "data").rglob("*.json")) + [ROOT / "data" / "notas_latam.md", ROOT / "data" / "notas_br_es_pt.md",
+                 ROOT / "DATA_SOURCES.md", ROOT / "index.html", ROOT / "chile-colombia.html"])
     for f in archivos:
         if not f.exists() or f.name == "link_status.json":
             continue
-        for u in URL_RE.findall(f.read_text(encoding="utf-8")):
+        texto = f.read_text(encoding="utf-8")
+        if f.name == "index.html":  # no revisar la copia incrustada (son los mismos JSON)
+            texto = re.sub(r'<script id="datos-inline".*?</script>', "", texto, flags=re.S)
+        for u in URL_RE.findall(texto):
             u = u.rstrip(".,;:")
             while u.endswith(")") and u.count(")") > u.count("("):
                 u = u[:-1]

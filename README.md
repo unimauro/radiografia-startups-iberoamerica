@@ -1,43 +1,63 @@
-# Radiografía de las Startups en Chile y Colombia 🇨🇱 🇨🇴
+# Radiografía de las Startups en Iberoamérica
 
 Observatorio de datos, hermano de [Radiografía de las Startups en Perú](https://github.com/unimauro/radiografia-startups-peru),
-sobre el ecosistema de startups de **Chile** y **Colombia**, con **Perú como referencia**:
-cuánto venture capital llega de verdad, quién gana los concursos del Estado y qué pasó con los
-programas públicos (Start-Up Chile, Corfo, iNNpulsa, Bancóldex) en 2025–2026.
+sobre el ecosistema de startups de **10 países**: Perú, Chile, Colombia, México, Argentina, Uruguay, Ecuador, Brasil, España y Portugal.
 
-> Estado: **v0.1 (16-nov-2026)** · Repo privado. GitHub Pages **no** habilitado (decisión pendiente del autor).
+> **¿Dónde está el dinero para emprender en Iberoamérica… y dónde no?**
+
+> Estado: **v0.2 (17-nov-2026)** · Repo **privado**. GitHub Pages **no** habilitado (decisión del autor).
+> Antes se llamaba `radiografia-startups-chile-colombia`; la v0.1 (Chile–Colombia) se conserva en `chile-colombia.html`.
 
 ## Qué hay
-- `index.html` — dashboard autocontenido (Chart.js 4.4.1 desde cdnjs, Inter + Space Grotesk, modo claro/oscuro,
-  mobile-first). Tres pestañas: **Chile**, **Colombia** y **Comparativo + Perú**. Cada gráfico cita su fuente.
-- `data/` — datasets JSON/CSV con la URL de cada cifra (ver `data/README.md`).
-- `DATA_SOURCES.md` — fuentes, metodologías y estado de verificación de cada enlace.
-- `BACKLOG.md` — backlog vivo: hecho, pendiente y datos que no se pudieron verificar.
-- `scripts/` — utilidades en Python (solo stdlib):
-  - `check_links.py` — valida con `curl` que cada URL citada resuelva → `data/link_status.json`.
-  - `build_csv.py` — genera los CSV desde los JSON.
+- `index.html` — dashboard autocontenido, mobile-first (sin scroll horizontal a 360 px), modo claro/oscuro, sidebar,
+  fuente bajo cada gráfico. Chart.js 4.4.1 (cdnjs) + mapa con d3 7.9.0, topojson-client 3.1.0 y world-atlas 2.0.2 (jsdelivr).
+  Secciones:
+  1. Hero con KPIs (contador animado; respeta `prefers-reduced-motion`).
+  2. Mapa coroplético del VC 2025 (con recuadro de la península ibérica; si el CDN no carga, cae a una grilla de mosaicos).
+  3. Ranking con selector: US$ millones / US$ por habitante / % del PIB.
+  4. Evolución 2018–2025 con chips por país, escala lineal/log y total LatAm (LAVCA).
+  5. "El dinero es deuda": % de deuda por país, con la diferencia metodológica de cada fuente.
+  6. ¿Quién abrió convocatoria en 2026? Matriz país × programa (sí / no / sin dato).
+  7. Fichas por país (serie, sectores, rondas, unicornios, StartupBlink, programas, hallazgos, sin verificar).
+  8. Perú en el espejo: cuántas veces más VC por habitante o % del PIB (con opción "Perú solo equity").
+  9. Metodología y límites (fuentes por país, tipo de cambio BCE, todos los `sin_verificar`), FAQ,
+     bibliografía generada desde los JSON y descargas.
+- `chile-colombia.html` — edición anterior (v0.1) con el detalle de Start-Up Chile, Corfo, iNNpulsa y Bancóldex.
+- `data/paises/{pe,cl,co,mx,ar,uy,ec,br,es,pt}.json` — un JSON por país con esquema común (ver `data/README.md`).
+- `data/latam_agregado.json` — total LatAm LAVCA 2018–2025, venture debt y % por país.
+- `data/iberoamerica_vc_anual.csv`, `data/iberoamerica_programas.csv` — CSV planos (generados).
+- `data/notas_latam.md`, `data/notas_br_es_pt.md` — notas de investigación y conflictos entre fuentes.
+- `DATA_SOURCES.md` — fuentes y metodologías. `BACKLOG.md` — backlog vivo (hecho / pendiente / sin verificar).
 
-## Cifras titulares (verificadas al 16-nov-2026)
-| | Chile | Colombia | Perú |
-|---|---|---|---|
-| VC 2025 (US$ M) | 250 (LAVCA) | 552 (LAVCA) | 76,5 (PECAP; 72% deuda) |
-| VC 2024 (US$ M) | 184 (LAVCA) | 513 (LAVCA) | 47 (PECAP) |
-| VC por habitante 2025 | US$ 12,6 | US$ 10,4 | US$ 2,2 |
-| VC / PIB 2025 | 0,076% | 0,131% | 0,026% |
-| StartupBlink 2025 | #37 | #36 | #67 |
+## Cifras titulares (VC 2025, verificadas al 17-nov-2026)
+| País | US$ M | Fuente | US$/hab | % PIB | StartupBlink 2025 |
+|---|---:|---|---:|---:|---:|
+| España | 3.582 (3.170 M€) | El Referente* | 73,4 | 0,208% | 14 |
+| Brasil | 1.670 | LAVCA | 7,9 | 0,076% | 27 |
+| México | 1.427 | LAVCA | 10,9 | 0,078% | 43 |
+| Colombia | 552 | LAVCA | 10,4 | 0,131% | 36 |
+| Portugal | 535 (473 M€) | Dealroom* | 50,0 | 0,170% | 29 |
+| Chile | 250 | LAVCA | 12,7 | 0,076% | 37 |
+| Argentina | 216 | LAVCA | 4,7 | 0,034% | 46 |
+| Perú | 76,5 (72% deuda) | PECAP* | 2,2 | 0,026% | 67 |
+| Uruguay | 51 | LAVCA | 15,0 | 0,062% | 61 |
+| Ecuador | sin dato | — | — | — | sin dato |
 
-## Uso local
-Abrir `index.html` en el navegador (no requiere servidor). Para scripts:
+\* Metodología distinta de LAVCA: no comparable 1 a 1.
+
+## Uso
+Abrir `index.html` en el navegador: funciona con `file://` porque los JSON van incrustados. Servido por HTTP, la página
+vuelve a leer `data/paises/*.json` con `fetch()`. Tras editar cualquier JSON:
 ```bash
-python3 -m venv ~/.venvs/startups-cl-co        # venv FUERA del repo
-~/.venvs/startups-cl-co/bin/python scripts/build_csv.py
-~/.venvs/startups-cl-co/bin/python scripts/check_links.py
+python3 -m venv ~/.venvs/startups-cl-co                     # venv FUERA del repo (solo stdlib)
+~/.venvs/startups-cl-co/bin/python scripts/build_inline.py  # reincrusta los JSON y regenera los CSV
+~/.venvs/startups-cl-co/bin/python scripts/check_links.py   # valida todas las URL → data/link_status.json
 ```
 
 ## Principios
-- Ninguna cifra sin URL. Si no se encontró: **"sin dato"** y entrada en `BACKLOG.md`.
-- Series de distintas metodologías **no se mezclan** (LAVCA vs ACVC vs KPMG).
-- Montos en USD convertidos por el observatorio se marcan como aproximados.
+- Ninguna cifra sin URL. Si no se encontró: **"sin dato"** y entrada en `sin_verificar` / `BACKLOG.md`.
+- Series de distintas metodologías **no se mezclan**; las alternativas van en `vc_anual_alternativas`.
+- Euros → dólares con el tipo medio anual del BCE (cálculo propio, marcado como tal).
 - Investigación asistida por IA, revisada contra las fuentes enlazadas.
 
 Autor: **Carlos Mauro Cárdenas** · Más dashboards en [unimauro.github.io](https://unimauro.github.io)

@@ -1,4 +1,49 @@
-# Fuentes de datos — Radiografía de las Startups en Chile y Colombia
+# Fuentes de datos — Radiografía de las Startups en Iberoamérica
+
+Todas las URLs de `data/**/*.json`, las notas, `DATA_SOURCES.md`, `index.html` y `chile-colombia.html` se validaron con
+`curl -L` (UA de navegador) el **17-nov-2026**: **176 de 176 respondieron 2xx/3xx** (`data/link_status.json`,
+regenerable con `scripts/check_links.py`). La bibliografía del dashboard se genera sola a partir de las URL de los JSON.
+
+## 1. Venture capital por país (`vc_anual`)
+| País | Serie | URL principal | Comparable con LAVCA |
+|---|---|---|---|
+| Brasil, México, Colombia, Chile, Argentina | **LAVCA** Tech Report 2019 (2018), VC Tech Report 2020 (2019), Trends in Tech 2025 (2020), Trends in Tech 2026 (2021–2025) | https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf | Sí |
+| Uruguay | LAVCA 2026 (2025, treemap por país); 2023 vía El Observador (fuente original no explícita) | ídem | Solo 2025 |
+| Perú | **PECAP** (2018 Infomercado; 2019–2021 Forbes; 2022 Forbes; 2023 El Comercio; 2024 EcoStartup; 2025 COFIDE) | https://www.cofide.com.pe/wp-content/uploads/2026/06/NP-COFIDE-y-PECAP-presentan-informe.pdf | No (incluye 72% de deuda en 2025) |
+| Ecuador | ECUACAP vía Ekos (2021–2022) | https://ekosnegocios.com/articulo/ecuacap-lanza-el-primer-reporte-de-venture-capital-en-ecuador | No; 2025 sin dato |
+| España | **El Referente** (Observatorio de Startups), M€ → US$ con BCE | https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/ | No (2025 incluye 312 M€ de deuda) |
+| Portugal | **Dealroom** vía Startup Portugal (2024–2025) | https://ecoreport.startupportugal.com/ | No |
+
+- Total LatAm 2018–2025, venture debt y % por país: `data/latam_agregado.json` (LAVCA 2026, p. 2–3 y 9).
+- **Perú 2023 (≈US$50M, PECAP):** El Comercio — https://elcomercio.pe/economia/dia-1/inversion-en-startups-como-le-fue-a-latinoamerica-y-peru-en-el-ultimo-ano-empresas-estrategia-negocios-venture-capital-noticia/ (añadida el 17-nov-2026; HTTP 200).
+- Tipo de cambio: BCE, serie EXR.A.USD.EUR.SP00.A — https://data-api.ecb.europa.eu/service/data/EXR/A.USD.EUR.SP00.A?format=csvdata&startPeriod=2018&endPeriod=2025
+- Población y PIB 2024: API del Banco Mundial (SP.POP.TOTL, NY.GDP.MKTP.CD), URL en `fuente_macro` de cada JSON.
+
+## 2. Deuda vs. equity (`deuda_vs_equity`)
+| País | % deuda | Fuente | Qué cuenta |
+|---|---:|---|---|
+| Perú 2025 | 72 | COFIDE–PECAP | venture debt dentro del total PECAP |
+| Brasil 2025 | 56,5 | Sling Hub vía startups.com.br | (FIDC + deuda) / US$4.500M; base distinta de LAVCA |
+| Colombia 2025 | 55,5 | KPMG ColombiaTech vía Bloomberg Línea | venture debt / US$857M; no comparable con LAVCA |
+| España 2025 | 9,8 | El Referente | 312 / 3.170 M€ (cálculo propio) |
+| LatAm 2025 | 14,0 | LAVCA 2026, p. 3 | solo venture debt de fondos cerrados; excluye >US$2.000M de crédito y FIDC |
+
+## 3. Unicornios, StartupBlink y programas
+- **Unicornios:** multiples.vc (oct-2026, por sede) para MX, CL, AR, CO, PE; Distrito (BR); Dealroom (ES, PT); Uruguay XXI (UY); Ekos (EC).
+- **StartupBlink 2025:** Bloomberg Línea Brasil (CO, CL, AR, UY, PE, BR), El CEO (MX), PDF original para ES y PT; startupblink.com bloquea bots.
+- **Programas públicos:** URL por programa en `programas_publicos[].fuente` (y `fuentes_convocatorias` en BR/ES/PT). Detalle en `data/notas_latam.md` y `data/notas_br_es_pt.md`.
+
+## 4. Bloqueos a bots (no se citan)
+startupblink.com (web), mexicobusiness.news, PDF del BID sobre Ecuador, emprendedores.es, firjan.com.br, diario.madrid.es, iadb.org, madridinnovation.es, ambitojuridico.com.
+
+## Notas de recolección
+- Investigación web asistida por IA, con cada URL comprobada por `curl`. PDF leídos con `pdftotext`; los valores leídos de
+  gráficos (treemaps, barras apiladas) se asignaron por posición de etiquetas: revisar el PDF antes de citar un valor aislado.
+- Mapa base: world-atlas 2.0.2 (Natural Earth 1:110m) desde jsdelivr.
+
+---
+
+# Anexo — fuentes de la edición Chile–Colombia (v0.1, `chile-colombia.html`)
 
 Todas las URLs citadas en `data/*.json` e `index.html` se validaron con `curl -L` (UA de navegador) el
 **16-nov-2026**: **91 de 91 respondieron 2xx/3xx** (ver `data/link_status.json`, regenerable con

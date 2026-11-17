@@ -1,0 +1,89 @@
+iso,pais,anio,usd_m,eur_m,operaciones,metodo,fuente,nota
+pe,Perú,2018,9.1,,51,PECAP,https://infomercado.pe/inversion-de-las-grandes-empresas-en-startups-se-duplico-el-2019,
+pe,Perú,2019,21.0,,63,PECAP,https://forbes.pe/economia-y-finanzas/2022-04-11/la-inversion-en-startups-peruanas-casi-se-triplico-en-2021/,
+pe,Perú,2020,46.0,,21,PECAP,https://forbes.pe/economia-y-finanzas/2022-04-11/la-inversion-en-startups-peruanas-casi-se-triplico-en-2021/,
+pe,Perú,2021,124.3,,27,PECAP,https://forbes.pe/economia-y-finanzas/2022-04-11/la-inversion-en-startups-peruanas-casi-se-triplico-en-2021/,
+pe,Perú,2022,87.0,,41,PECAP,https://forbes.pe/negocios/2023-03-21/inversion-en-startups-peruanas-alcanzo-los-us-87-millones-en-2022/,
+pe,Perú,2023,50.0,,,PECAP,https://elcomercio.pe/economia/dia-1/inversion-en-startups-como-le-fue-a-latinoamerica-y-peru-en-el-ultimo-ano-empresas-estrategia-negocios-venture-capital-noticia/,PECAP vía El Comercio (≈US$50M)
+pe,Perú,2024,47.0,,33,PECAP,https://ecosistemastartup.com/?p=82717,
+pe,Perú,2025,76.5,,23,PECAP,https://www.cofide.com.pe/wp-content/uploads/2026/06/NP-COFIDE-y-PECAP-presentan-informe.pdf,
+cl,Chile,2018,46,,49,LAVCA,https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf,
+cl,Chile,2019,63,,40,LAVCA,https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf,
+cl,Chile,2020,139,,36,LAVCA,https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf,
+cl,Chile,2021,889,,96,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+cl,Chile,2022,535,,116,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+cl,Chile,2023,269,,88,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+cl,Chile,2024,184,,74,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+cl,Chile,2025,250,,50,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+co,Colombia,2018,334,,19,LAVCA,https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf,
+co,Colombia,2019,1090,,36,LAVCA,https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf,
+co,Colombia,2020,500,,41,LAVCA,https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf,
+co,Colombia,2021,1583,,90,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+co,Colombia,2022,1203,,130,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+co,Colombia,2023,395,,93,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+co,Colombia,2024,513,,78,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+co,Colombia,2025,552,,71,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+mx,México,2018,175,,95,LAVCA,https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf,
+mx,México,2019,649,,100,LAVCA,https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf,
+mx,México,2020,847,,106,LAVCA,https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf,
+mx,México,2021,3587,,244,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+mx,México,2022,1782,,180,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+mx,México,2023,1144,,156,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+mx,México,2024,1175,,126,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+mx,México,2025,1427,,107,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+ar,Argentina,2018,84,,19,LAVCA,https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf,
+ar,Argentina,2019,290,,29,LAVCA,https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf,
+ar,Argentina,2020,215,,29,LAVCA,https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf,
+ar,Argentina,2021,1306,,83,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+ar,Argentina,2022,375,,106,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+ar,Argentina,2023,114,,73,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+ar,Argentina,2024,411,,76,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+ar,Argentina,2025,216,,77,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+uy,Uruguay,2018,,,,LAVCA,,
+uy,Uruguay,2019,,,,LAVCA,,
+uy,Uruguay,2020,,,,LAVCA,,
+uy,Uruguay,2021,,,,LAVCA,,
+uy,Uruguay,2022,,,,LAVCA,,
+uy,Uruguay,2023,62,,,prensa (El Observador; fuente original no explícita),https://www.elobservador.com.uy/cafe-y-negocios/levantar-capital-el-desafio-que-enfrentan-las-startups-uruguay-captar-inversiones-y-los-consejos-los-que-ya-pasaron-el-proceso-n5978420,
+uy,Uruguay,2024,,,,LAVCA,,
+uy,Uruguay,2025,51,,,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+ec,Ecuador,2018,,,,sin serie,,
+ec,Ecuador,2019,,,,sin serie,,
+ec,Ecuador,2020,,,,sin serie,,
+ec,Ecuador,2021,97,,14,ECUACAP,https://ekosnegocios.com/articulo/ecuacap-lanza-el-primer-reporte-de-venture-capital-en-ecuador,
+ec,Ecuador,2022,151,,17,ECUACAP,https://ekosnegocios.com/articulo/ecuacap-lanza-el-primer-reporte-de-venture-capital-en-ecuador,
+ec,Ecuador,2023,,,,sin serie,,
+ec,Ecuador,2024,,,,sin serie,,
+ec,Ecuador,2025,,,,sin serie,,
+br,Brasil,2018,1300,,259,LAVCA,https://www.lavca.org/wp-content/uploads/2023/10/FINAL2-2019-LAVCA-Tech-Report-04.30.19.pdf,LAVCA lo reporta redondeado: 'US$1.3b invested across 259 deals'
+br,Brasil,2019,2490,,222,LAVCA,https://www.lavca.org/wp-content/uploads/2023/10/FINAL3-LAVCA-VC-Tech-Report-2020-08.27.20.pdf,'US$2.49B invested across 222 deals'
+br,Brasil,2020,2550,,312,LAVCA,https://www.lavca.org/wp-content/uploads/2025/02/LAVCA_Trends-in-Tech-2025.pdf,"Gráfico 'VC Investment in Latin America by Country, 2020-2024' (Trends in Tech 2025)"
+br,Brasil,2021,7774,,468,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,La edición 2025 decía 7.767
+br,Brasil,2022,3184,,508,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+br,Brasil,2023,1867,,356,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,La edición 2025 decía 1.865 / 351
+br,Brasil,2024,2032,,359,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,La edición 2025 decía 2.013 / 353
+br,Brasil,2025,1670,,296,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+es,España,2018,1449.1,1227.1,199,El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE,https://elreferente.es/ecosistema/el-ano-2020-cierra-con-1-101-786-millones-de-euros-invertidos-en-startups-espanolas/,Dato citado en el cierre 2020 de El Referente / Fundación Innovación Bankinter
+es,España,2019,1229.3,1098.1,205,El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE,https://elreferente.es/ecosistema/el-ano-2020-cierra-con-1-101-786-millones-de-euros-invertidos-en-startups-espanolas/,Dato citado en el cierre 2020
+es,España,2020,1258.5,1101.8,338,El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE,https://elreferente.es/ecosistema/el-ano-2020-cierra-con-1-101-786-millones-de-euros-invertidos-en-startups-espanolas/,
+es,España,2021,5033.7,4256,406,El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE,https://elreferente.es/actualidad/la-inversion-en-startups-cae-un-50-y-el-ano-2023-cierra-con-1-525-millones-de-euros-invertidos-en-332-operaciones/,Cifra revisada; el cierre original de dic-2021 decía 4.207 / 400
+es,España,2022,3543.5,3365,412,El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE,https://elreferente.es/actualidad/la-inversion-en-startups-cae-un-50-y-el-ano-2023-cierra-con-1-525-millones-de-euros-invertidos-en-332-operaciones/,El cierre 2025 la reexpresa como 3.270 / 416
+es,España,2023,1648.9,1525,332,El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE,https://elreferente.es/actualidad/la-inversion-en-startups-cae-un-50-y-el-ano-2023-cierra-con-1-525-millones-de-euros-invertidos-en-332-operaciones/,Excluye >300 M€ de préstamos y deuda
+es,España,2024,2543.6,2350,300,El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE,https://elreferente.es/actualidad/la-inversion-en-startups-en-2024-crece-mas-de-un-50-y-suma-2-350-millones-de-euros-invertidos-en-espana/,"'casi 2.350 M€ en alrededor de 300 operaciones'; excluye 613 M€ de préstamo y deuda. El cierre 2025 implica una base 2024 mayor (+8,5%)"
+es,España,2025,3582.0,3170,303,El Referente (Observatorio de Startups); USD = cálculo propio con tipo medio anual BCE,https://elreferente.es/actualidad/espana-cierra-2025-con-3-170-millones-de-euros-de-inversion-en-startups-y-un-crecimiento-sostenido/,"INCLUYE 312 M€ de deuda (~9,8%): cambio metodológico frente a 2023–2024"
+pt,Portugal,2018,,,,Dealroom (vía Startup Portugal),,sin dato homogéneo; ver vc_anual_alternativas
+pt,Portugal,2019,,,,Dealroom (vía Startup Portugal),,sin dato homogéneo; ver vc_anual_alternativas
+pt,Portugal,2020,,,,Dealroom (vía Startup Portugal),,sin dato homogéneo; ver vc_anual_alternativas
+pt,Portugal,2021,,,,Dealroom (vía Startup Portugal),,sin dato homogéneo; ver vc_anual_alternativas
+pt,Portugal,2022,,,,Dealroom (vía Startup Portugal),,sin dato homogéneo; ver vc_anual_alternativas
+pt,Portugal,2023,,,,Dealroom (vía Startup Portugal),,sin dato homogéneo; ver vc_anual_alternativas
+pt,Portugal,2024,440.5,407,193,Dealroom (vía Startup Portugal); USD = cálculo propio BCE,https://ecoreport.startupportugal.com/,Startups y scaleups con sede o fundadas en Portugal
+pt,Portugal,2025,534.5,473,157,Dealroom (vía Startup Portugal); USD = cálculo propio BCE,https://ecoreport.startupportugal.com/,"Ticket medio 3 M€ (2,1 M€ en 2024)"
+latam,América Latina (total),2018,2300.0,,460,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+latam,América Latina (total),2019,5000.0,,483,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+latam,América Latina (total),2020,4400.0,,552,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+latam,América Latina (total),2021,16000.0,,981,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+latam,América Latina (total),2022,8000.0,,1206,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+latam,América Latina (total),2023,4300.0,,836,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+latam,América Latina (total),2024,4600.0,,780,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
+latam,América Latina (total),2025,4300.0,,664,LAVCA,https://www.lavca.org/wp-content/uploads/2026/02/LAVCA_Trends-in-Tech-2026.pdf,
