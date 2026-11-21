@@ -12,6 +12,14 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Radiografía de las Startups en Iberoamérica">
 <meta property="og:description" content="¿Dónde está el dinero para emprender en Iberoamérica… y dónde no? 10 países, cada cifra con su fuente.">
+<meta property="og:url" content="https://unimauro.github.io/radiografia-startups-iberoamerica/">
+<meta property="og:image" content="https://unimauro.github.io/radiografia-startups-iberoamerica/og-image.png?v=1">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Radiografía de las Startups en Iberoamérica">
+<meta name="twitter:description" content="¿Dónde está el dinero para emprender en Iberoamérica… y dónde no? 10 países, cada cifra con su fuente.">
+<meta name="twitter:image" content="https://unimauro.github.io/radiografia-startups-iberoamerica/og-image.png?v=1">
+<link rel="canonical" href="https://unimauro.github.io/radiografia-startups-iberoamerica/">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
@@ -26,7 +34,7 @@
     --s1:#b9d3f3; --s2:#86b4ea; --s3:#4f8fdc; --s4:#2566c0; --s5:#123f7a;
     /* Paleta categórica por país (validada: banda de luminosidad, croma, visión normal ≥15) */
     --c-pe:#e34948; --c-cl:#2a78d6; --c-co:#eda100; --c-mx:#1baf7a; --c-ar:#e87ba4;
-    --c-uy:#6250d6; --c-ec:#eb6834; --c-br:#008300; --c-es:#a0306a; --c-pt:#0a8cb8;
+    --c-uy:#6250d6; --c-ec:#1c2b5a; --c-br:#008300; --c-es:#a0306a; --c-pt:#0a8cb8;
     --r:16px; --sh:0 1px 2px rgba(16,26,44,.05),0 6px 18px rgba(16,26,44,.06);
     --sh-lg:0 6px 16px rgba(16,26,44,.10),0 22px 48px rgba(16,26,44,.12);
     --disp:"Space Grotesk",-apple-system,system-ui,sans-serif;
@@ -42,7 +50,7 @@
     --land:#252a33; --land-line:#0f1728; --sea:#0f1728; --hatch:#5d6b82;
     --s1:#1f4f86; --s2:#2c6bb5; --s3:#4a8ce0; --s4:#7fb0ef; --s5:#bcd8fa;
     --c-pe:#e66767; --c-cl:#3987e5; --c-co:#c98500; --c-mx:#199e70; --c-ar:#d55181;
-    --c-uy:#9085e9; --c-ec:#d95926; --c-br:#0ca30c; --c-es:#c45a92; --c-pt:#1aa3cc;
+    --c-uy:#9085e9; --c-ec:#dfe67e; --c-br:#4a7a10; --c-es:#c45a92; --c-pt:#1aa3cc;
     --sh:0 1px 2px rgba(0,0,0,.5),0 6px 18px rgba(0,0,0,.4); --sh-lg:0 6px 16px rgba(0,0,0,.55),0 22px 48px rgba(0,0,0,.5);
     color-scheme:dark;
   }}
@@ -55,7 +63,7 @@
     --land:#252a33; --land-line:#0f1728; --sea:#0f1728; --hatch:#5d6b82;
     --s1:#1f4f86; --s2:#2c6bb5; --s3:#4a8ce0; --s4:#7fb0ef; --s5:#bcd8fa;
     --c-pe:#e66767; --c-cl:#3987e5; --c-co:#c98500; --c-mx:#199e70; --c-ar:#d55181;
-    --c-uy:#9085e9; --c-ec:#d95926; --c-br:#0ca30c; --c-es:#c45a92; --c-pt:#1aa3cc;
+    --c-uy:#9085e9; --c-ec:#dfe67e; --c-br:#4a7a10; --c-es:#c45a92; --c-pt:#1aa3cc;
     --sh:0 1px 2px rgba(0,0,0,.5),0 6px 18px rgba(0,0,0,.4); --sh-lg:0 6px 16px rgba(0,0,0,.55),0 22px 48px rgba(0,0,0,.5);
     color-scheme:dark;
   }

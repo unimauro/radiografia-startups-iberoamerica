@@ -5,7 +5,7 @@ sobre el ecosistema de startups de **10 países**: Perú, Chile, Colombia, Méxi
 
 > **¿Dónde está el dinero para emprender en Iberoamérica… y dónde no?**
 
-> Estado: **v0.2 (17-nov-2026)** · Repo **privado**. GitHub Pages **no** habilitado (decisión del autor).
+> Estado: **v0.2.1 (21-nov-2026)** · Publicado en **https://unimauro.github.io/radiografia-startups-iberoamerica/** · Edición Perú: https://unimauro.github.io/radiografia-startups-peru/
 > Antes se llamaba `radiografia-startups-chile-colombia`; la v0.1 (Chile–Colombia) se conserva en `chile-colombia.html`.
 
 ## Qué hay

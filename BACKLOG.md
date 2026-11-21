@@ -19,11 +19,10 @@ Backlog vivo. Última actualización: **17-nov-2026**.
 - v0.1 Chile–Colombia conservada en `chile-colombia.html`.
 
 ## 🔜 Pendiente
-- [ ] Decidir si se publica (GitHub Pages) — **decisión del autor**; hoy privado y sin Pages.
-- [ ] Imagen OG y `og:url` cuando haya URL pública.
-- [ ] Paleta de 10 países: pasa luminosidad, croma y separación en visión normal, pero el par Ecuador (naranja) ↔ Brasil
-      (verde) no pasa la prueba de daltonismo (deuteranopía). Se compensa con etiquetas directas y nombres en ejes; revisar
-      si se quiere textura o agrupar.
+- [x] Publicado en GitHub Pages: https://unimauro.github.io/radiografia-startups-iberoamerica/
+- [x] Imagen OG, `og:url` y tarjetas de Twitter.
+- [x] Paleta: Ecuador pasa a azul marino (claro) / lima pálido (oscuro) y Brasil a verde oliva en oscuro; la distancia
+      mínima con deuteranopía/protanopía sube de 3,7 a ≥13 (ΔE).
 - [ ] Ecuador: buscar VC 2023–2025 (ECUACAP u otra fuente) y StartupBlink 2025.
 - [ ] Portugal: serie homogénea 2018–2023 (Dealroom) y deuda vs equity.
 - [ ] España: serie Dealroom 2018–2025 para contrastar con El Referente.
